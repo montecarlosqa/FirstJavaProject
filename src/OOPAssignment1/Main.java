@@ -8,7 +8,7 @@ public class Main {
         student.setisEnrolled(true);
         System.out.println(student.toString());
 
-        System.out.println("---------------------------------");
+        System.out.println("Test");
 
         ITstudent iTstudent = new ITstudent(3, "carlo", "California",true, "Python");
         System.out.println(iTstudent.toString());
@@ -49,7 +49,7 @@ public class Main {
         cleaner.setTitle("Equipment cleaner");
         System.out.println(cleaner.toString());
 
-        
+
 
 
 
