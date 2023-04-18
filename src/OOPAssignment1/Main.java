@@ -8,10 +8,26 @@ public class Main {
         student.setisEnrolled(true);
         System.out.println(student.toString());
 
+        System.out.println("---------------------------------");
+
+        ITstudent iTstudent = new ITstudent(3, "carlo", "California",true, "Python");
+        System.out.println(iTstudent.toString());
+        iTstudent.setProgrammingLanguage("Java");
+        System.out.println(iTstudent.toString());
+
+        Medicalstudent medicalstudent = new Medicalstudent(3, "carlo", "California",true, "Pharmacy");
+        System.out.println(medicalstudent.toString());
+        medicalstudent.setField("Med Technology");
+        System.out.println(medicalstudent.toString());
+
+        System.out.println("---------------------------------");
+
         Employee employee = new Employee(3, "carlo", "California",36000.0);
         System.out.println(employee.toString());
         employee.setSalary(37500.0);
         System.out.println(employee.toString());
+
+        System.out.println("---------------------------------");
 
         Professor professor= new Professor(3, "carlo", "California",40000.0, "Master's Degree");
         System.out.println(professor.toString());
@@ -32,6 +48,8 @@ public class Main {
         System.out.println(cleaner.toString());
         cleaner.setTitle("Equipment cleaner");
         System.out.println(cleaner.toString());
+
+        
 
 
 
