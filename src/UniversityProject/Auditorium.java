@@ -63,10 +63,10 @@ public class Auditorium {
 
     @Override
     public String toString() {
-        return "Total seats " + totalSeats + "\nOccupied seats: " + occupiedSeats + "\nEvent name: " + eventName;
+        return "Auditorium{" +
+                "totalSeats=" + totalSeats +
+                ", occupiedSeats=" + occupiedSeats +
+                ", eventName='" + eventName + '\'' +
+                '}';
     }
-
-    ;
-
-
 }

@@ -80,8 +80,12 @@ public class Bus {
 
     @Override
     public String toString() {
-        return "Bus Id: " + busId + "\nDriver Id: " + driverId + "\nDriver name: " + driverName + "\nBus#: " + busNumber + "\nCapacity: " + capacity;
+        return "Bus{" +
+                "busId=" + busId +
+                ", driverId=" + driverId +
+                ", driverName='" + driverName + '\'' +
+                ", busNumber=" + busNumber +
+                ", capacity=" + capacity +
+                '}';
     }
-
-    ;
 }

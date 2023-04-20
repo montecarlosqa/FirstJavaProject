@@ -25,8 +25,8 @@ public class LabEquipments extends Lab {
 
     @Override
     public String toString() {
-        return "Costs: " + costs;
+        return "LabEquipments{" +
+                "costs=" + costs +
+                '}';
     }
-
-    ;
 }

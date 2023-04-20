@@ -72,16 +72,15 @@ public class Lab {
         } else {
             System.out.println("The lab is occupied");
         }
-    }
-
-    ;
+    };
 
     @Override
     public String toString() {
-        return "Lab Id: " + labId + "\nIn Charged Id: " + inChargedId + "\nLab name: " + labName + "\nEquipment Id: " + equipmentId;
+        return "Lab{" +
+                "labId=" + labId +
+                ", inChargedId=" + inChargedId +
+                ", labName='" + labName + '\'' +
+                ", equipmentId=" + equipmentId +
+                '}';
     }
-
-    ;
-
-
 }

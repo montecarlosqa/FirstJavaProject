@@ -1,5 +1,7 @@
 package UniversityProject;
 
+import java.util.Objects;
+
 public class Student extends Classroom {
 
     private int studentId;
@@ -81,8 +83,25 @@ public class Student extends Classroom {
 
     @Override
     public String toString() {
-        return "Student Id: " + studentId + "\nStudent name: " + studentName + "\nAddress: " + address + "\nSection: " + section + "\nBus Id: " + busId;
+        return "Student{" +
+                "studentId=" + studentId +
+                ", studentName='" + studentName + '\'' +
+                ", address='" + address + '\'' +
+                ", section='" + section + '\'' +
+                ", busId=" + busId +
+                '}';
     }
 
-    ;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Student)) return false;
+        Student student = (Student) o;
+        return getStudentId() == student.getStudentId() && getBusId() == student.getBusId() && Objects.equals(getStudentName(), student.getStudentName()) && Objects.equals(address, student.address) && Objects.equals(getSection(), student.getSection());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getStudentId(), getStudentName(), address, getSection(), getBusId());
+    }
 }

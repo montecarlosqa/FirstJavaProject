@@ -4,19 +4,26 @@ public class Professor extends Employee{
 
     private int professorId;
     private String field;
+    private double workingHours;
 
-    public Professor(int employeeId, String employeeName, String address, int salary, int departmentId, int professorId, String field){
-        super(employeeId, employeeName, address, salary, departmentId);
+    public Professor(int employeeId, String employeeName, String address, double salaryPerHr, int departmentId, int professorId, String field, double workingHours){
+        super(employeeId, employeeName, address, salaryPerHr, departmentId);
         this.professorId = professorId;
+        this. field = field;
+        this.workingHours = workingHours;
+    };
+
+    public void setProfessorId(int professorId){
+        this.professorId = professorId;
+    };
+    public void setField(String field){
         this. field = field;
     };
 
-    public void setProfessorId(){
-        this.professorId = professorId;
+    public void setWorkingHours(double workingHours){
+        this.workingHours = workingHours;
     };
-    public void setField(){
-        this. field = field;
-    };
+
     public int getProfessorId(){
         return professorId;
     };
@@ -24,8 +31,20 @@ public class Professor extends Employee{
         return field;
     };
 
+    public double getWorkingHours(){return workingHours;};
 
-    public String toString(){
-        return "Professor Id: " + professorId + "\nField: " + field;
+    @Override
+    public double calculateSalary(){
+        return getSalaryPerHr() * workingHours;
     };
+
+    @Override
+    public String toString() {
+        return "Professor{" +
+                "professorId=" + professorId +
+                ", field='" + field + '\'' +
+                '}';
+    }
+
+
 }

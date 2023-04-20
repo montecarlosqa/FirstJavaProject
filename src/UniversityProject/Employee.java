@@ -1,49 +1,51 @@
 package UniversityProject;
 
+import java.util.Objects;
+
 public abstract class Employee {
 
     private int employeeId;
     private String employeeName;
 
     private String address;
-    private int salary;
+    private double salaryPerHr;
     private int departmentId;
 
-    public Employee(int employeeId, String employeeName, String address, int salary, int departmentId) {
+    public Employee(int employeeId, String employeeName, String address, double salaryPerHr, int departmentId) {
         this.employeeId = employeeId;
         this.employeeName = employeeName;
         this.address = address;
-        this.salary = salary;
+        this.salaryPerHr = salaryPerHr;
         this.departmentId = departmentId;
     }
 
     ;
 
-    public void setEmployeeId() {
+    public void setEmployeeId(int employeeId) {
         this.employeeId = employeeId;
     }
 
     ;
 
-    public void setEmployeeName() {
+    public void setEmployeeName(String employeeName) {
         this.employeeName = employeeName;
     }
 
     ;
 
-    public void setAddress() {
+    public void setAddress(String address) {
         this.address = address;
     }
 
     ;
 
-    public void setEmployeeSalary() {
-        this.salary = salary;
+    public void setSalaryPerHr(double salaryPerHr) {
+        this.salaryPerHr = salaryPerHr;
     }
 
     ;
 
-    public void setDepartmentId() {
+    public void setDepartmentId(int departmentId) {
         this.departmentId = departmentId;
     }
 
@@ -67,8 +69,8 @@ public abstract class Employee {
 
     ;
 
-    public int getEmployeeSalary() {
-        return salary;
+    public double getSalaryPerHr(){
+        return salaryPerHr;
     }
 
     ;
@@ -79,8 +81,30 @@ public abstract class Employee {
 
     ;
 
+
+    public abstract double calculateSalary();
+
     @Override
-    public abstract String toString();
+    public String toString() {
+        return "Employee{" +
+                "employeeId=" + employeeId +
+                ", employeeName='" + employeeName + '\'' +
+                ", address='" + address + '\'' +
+                ", salaryPerHr=" + salaryPerHr +
+                ", departmentId=" + departmentId +
+                '}';
+    }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee)) return false;
+        Employee employee = (Employee) o;
+        return getEmployeeId() == employee.getEmployeeId() && Double.compare(employee.getSalaryPerHr(), getSalaryPerHr()) == 0 && getDepartmentId() == employee.getDepartmentId() && Objects.equals(getEmployeeName(), employee.getEmployeeName()) && Objects.equals(getAddress(), employee.getAddress());
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(getEmployeeId(), getEmployeeName(), getAddress(), getSalaryPerHr(), getDepartmentId());
+    }
 }

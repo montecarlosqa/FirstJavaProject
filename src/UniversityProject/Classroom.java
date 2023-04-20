@@ -32,8 +32,11 @@ public class Classroom {
     };
 
     @Override
-    public String toString(){
-        return "Class Id; " + classId + "\nClass name: " + className + "\nStudent count: " + studentCount;
-    };
-
+    public String toString() {
+        return "Classroom{" +
+                "classId=" + classId +
+                ", className='" + className + '\'' +
+                ", studentCount=" + studentCount +
+                '}';
+    }
 }
