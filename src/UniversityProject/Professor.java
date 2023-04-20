@@ -1,5 +1,7 @@
 package UniversityProject;
 
+import java.util.Objects;
+
 public class Professor extends Employee{
 
     private int professorId;
@@ -46,5 +48,17 @@ public class Professor extends Employee{
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Professor)) return false;
+        if (!super.equals(o)) return false;
+        Professor professor = (Professor) o;
+        return getProfessorId() == professor.getProfessorId() && Double.compare(professor.getWorkingHours(), getWorkingHours()) == 0 && Objects.equals(getField(), professor.getField());
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), getProfessorId(), getField(), getWorkingHours());
+    }
 }
