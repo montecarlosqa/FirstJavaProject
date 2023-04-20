@@ -12,6 +12,19 @@ public class SupportStaff extends Employee{
     };
 
 
+    public void setStaffId(){
+        this.staffId = staffId;
+    };
+    public void setTitle(){
+        this.title = title;
+    };
+    public int getStaffId(){
+        return staffId;
+    };
+    public String title(){
+        return title;
+    };
+
     @Override
     public String toString(){
         return "Staff Id: " + staffId + "\nTitle: " + title;

@@ -31,6 +31,7 @@ public class Classroom {
         return studentCount;
     };
 
+    @Override
     public String toString(){
         return "Class Id; " + classId + "\nClass name: " + className + "\nStudent count: " + studentCount;
     };

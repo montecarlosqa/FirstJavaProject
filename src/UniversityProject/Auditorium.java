@@ -8,47 +8,65 @@ public class Auditorium {
     private int occupiedSeats;
     private String eventName;
 
-    public Auditorium(int totalSeats, int occupiedSeats, String eventName){
+    public Auditorium(int totalSeats, int occupiedSeats, String eventName) {
         this.totalSeats = totalSeats;
-        if(occupiedSeats > totalSeats) {
+        if (occupiedSeats > totalSeats) {
             System.err.println("Value exceeded the maximum seats!");
             return;
         }
         this.occupiedSeats = occupiedSeats;
         this.eventName = eventName;
-    };
+    }
 
-    public void setTotalSeats(int totalSeats){
+    ;
+
+    public void setTotalSeats(int totalSeats) {
         this.totalSeats = totalSeats;
-    };
-    public void setOccupiedSeats(int occupiedSeats){
+    }
 
-        if(occupiedSeats > totalSeats) {
+    ;
+
+    public void setOccupiedSeats(int occupiedSeats) {
+
+        if (occupiedSeats > totalSeats) {
             System.err.println("Value exceeded the maximum seats!");
             return;
         }
         this.occupiedSeats = occupiedSeats;
-    };
-    public void setEventName(String eventName){
-        this.eventName = eventName;
-    };
+    }
 
-    public int getTotalSeats(){
+    ;
+
+    public void setEventName(String eventName) {
+        this.eventName = eventName;
+    }
+
+    ;
+
+    public int getTotalSeats() {
         return totalSeats;
-    };
+    }
 
-    public int getOccupiedSeats(){
+    ;
+
+    public int getOccupiedSeats() {
         return occupiedSeats;
-    };
+    }
 
-    public String getEventName(){
+    ;
+
+    public String getEventName() {
         return eventName;
-    };
+    }
 
-    public String toString(){
+    ;
+
+    @Override
+    public String toString() {
         return "Total seats " + totalSeats + "\nOccupied seats: " + occupiedSeats + "\nEvent name: " + eventName;
-    };
+    }
 
+    ;
 
 
 }

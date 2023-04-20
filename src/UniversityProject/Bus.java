@@ -8,53 +8,80 @@ public class Bus {
     private int busNumber;
     private int capacity;
 
-    public Bus(int busId, int driverId, String driverName, int busNumber, int capacity){
+    public Bus(int busId, int driverId, String driverName, int busNumber, int capacity) {
         this.busId = busId;
         this.driverId = driverId;
         this.driverName = driverName;
         this.busNumber = busNumber;
         this.capacity = capacity;
-    };
+    }
 
-    public void setBusId(int busId){
+    ;
+
+    public void setBusId(int busId) {
         this.busId = busId;
-    };
-    public void setDriverId(int driverId){
+    }
+
+    ;
+
+    public void setDriverId(int driverId) {
         this.driverId = driverId;
-    };
-    public void setDriverName(String driverName){
+    }
+
+    ;
+
+    public void setDriverName(String driverName) {
         this.driverName = driverName;
-    };
+    }
 
-    public void setBusNumber(int busNumber){
+    ;
+
+    public void setBusNumber(int busNumber) {
         this.busNumber = busNumber;
-    };
+    }
 
-    public void setCapacity(int capacity){
+    ;
+
+    public void setCapacity(int capacity) {
         this.capacity = capacity;
-    };
+    }
 
-    public int getBusId(){
+    ;
+
+    public int getBusId() {
         return busId;
-    };
+    }
 
-    public int driverId(){
+    ;
+
+    public int driverId() {
         return driverId;
-    };
+    }
 
-    public String getDriverName(){
+    ;
+
+    public String getDriverName() {
         return driverName;
-    };
+    }
 
-    public int getBusNumber(){
+    ;
+
+    public int getBusNumber() {
         return busNumber;
-    };
+    }
 
-    public int getCapacity(){
+    ;
+
+    public int getCapacity() {
         return capacity;
-    };
+    }
 
-    public String toString(){
+    ;
+
+    @Override
+    public String toString() {
         return "Bus Id: " + busId + "\nDriver Id: " + driverId + "\nDriver name: " + driverName + "\nBus#: " + busNumber + "\nCapacity: " + capacity;
-    };
+    }
+
+    ;
 }

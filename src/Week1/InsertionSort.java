@@ -1,6 +1,6 @@
 package Week1;
 
-public class PracticalAssignment2 {
+public class InsertionSort {
 
     public static void main(String[] args) {
 

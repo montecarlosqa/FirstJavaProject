@@ -11,6 +11,20 @@ public class Professor extends Employee{
         this. field = field;
     };
 
+    public void setProfessorId(){
+        this.professorId = professorId;
+    };
+    public void setField(){
+        this. field = field;
+    };
+    public int getProfessorId(){
+        return professorId;
+    };
+    public String getField(){
+        return field;
+    };
+
+
     public String toString(){
         return "Professor Id: " + professorId + "\nField: " + field;
     };

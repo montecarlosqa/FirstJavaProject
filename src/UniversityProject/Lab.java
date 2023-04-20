@@ -9,50 +9,79 @@ public class Lab {
 
     private boolean isOccupied;
 
-    public Lab(int labId, int inChargedId, String labName, int equipmentId){
+    public Lab(int labId, int inChargedId, String labName, int equipmentId) {
         this.labId = labId;
         this.inChargedId = inChargedId;
         this.labName = labName;
         this.equipmentId = equipmentId;
-    };
+    }
 
-    public void setLabId(int labId){
+    ;
+
+    public void setLabId(int labId) {
         this.labId = labId;
-    };
-    public void setInChargedIdId(int inChargedId){
-        this.inChargedId = inChargedId;
-    };
-    public void setLabName(String labName){
-        this.labName = labName;
-    };
-    public void setEquipmentId(int equipmentId){
-        this.equipmentId = equipmentId;
-    };
+    }
 
-    public int getLabId(){
+    ;
+
+    public void setInChargedIdId(int inChargedId) {
+        this.inChargedId = inChargedId;
+    }
+
+    ;
+
+    public void setLabName(String labName) {
+        this.labName = labName;
+    }
+
+    ;
+
+    public void setEquipmentId(int equipmentId) {
+        this.equipmentId = equipmentId;
+    }
+
+    ;
+
+    public int getLabId() {
         return labId;
-    };
-    public int getInChargedIdId(){
-        return inChargedId;
-    };
-    public String getLabName(){
-        return labName;
-    };
-    public int getEquipmentId(){
-        return equipmentId;
-    };
+    }
 
-    public void isOccupied(boolean isOccupied){
-        if(!isOccupied){
+    ;
+
+    public int getInChargedIdId() {
+        return inChargedId;
+    }
+
+    ;
+
+    public String getLabName() {
+        return labName;
+    }
+
+    ;
+
+    public int getEquipmentId() {
+        return equipmentId;
+    }
+
+    ;
+
+    public void isOccupied(boolean isOccupied) {
+        if (!isOccupied) {
             System.out.println("The lab is unoccupied");
-        }else{
+        } else {
             System.out.println("The lab is occupied");
         }
-    };
+    }
 
-    public String toString(){
+    ;
+
+    @Override
+    public String toString() {
         return "Lab Id: " + labId + "\nIn Charged Id: " + inChargedId + "\nLab name: " + labName + "\nEquipment Id: " + equipmentId;
-    };
+    }
+
+    ;
 
 
 }
