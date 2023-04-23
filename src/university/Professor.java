@@ -1,4 +1,4 @@
-package UniversityProject;
+package university;
 
 import java.util.Objects;
 
@@ -18,6 +18,7 @@ public class Professor extends Employee{
     public void setProfessorId(int professorId){
         this.professorId = professorId;
     };
+
     public void setField(String field){
         this. field = field;
     };
@@ -29,11 +30,14 @@ public class Professor extends Employee{
     public int getProfessorId(){
         return professorId;
     };
+
     public String getField(){
         return field;
     };
 
-    public double getWorkingHours(){return workingHours;};
+    public double getWorkingHours(){
+        return workingHours;
+    };
 
     @Override
     public double calculateSalary(){

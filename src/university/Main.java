@@ -1,4 +1,4 @@
-package UniversityProject;
+package university;
 
 public class Main {
 
@@ -6,7 +6,7 @@ public class Main {
 
         School school = new School("Angeles University Foundation", "Angeles City, Philippines");
         System.out.println(school);
-        school.isOpen(true);
+        school.isSchoolOpen(true);
         System.out.println("------------------------------");
         Bus bus = new Bus(1, 1, "john wick", 5, 50);
         System.out.println(bus);

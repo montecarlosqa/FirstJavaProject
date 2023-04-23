@@ -1,15 +1,14 @@
-package UniversityProject;
+package university;
 
 import java.util.Objects;
 
 public abstract class Employee {
 
-    private int employeeId;
-    private String employeeName;
-
-    private String address;
-    private double salaryPerHr;
-    private int departmentId;
+    protected int employeeId;
+    protected String employeeName;
+    protected String address;
+    protected double salaryPerHr;
+    protected int departmentId;
 
     public Employee(int employeeId, String employeeName, String address, double salaryPerHr, int departmentId) {
         this.employeeId = employeeId;
@@ -17,72 +16,49 @@ public abstract class Employee {
         this.address = address;
         this.salaryPerHr = salaryPerHr;
         this.departmentId = departmentId;
-    }
-
-    ;
+    };
 
     public void setEmployeeId(int employeeId) {
         this.employeeId = employeeId;
-    }
-
-    ;
+    };
 
     public void setEmployeeName(String employeeName) {
         this.employeeName = employeeName;
-    }
-
-    ;
+    };
 
     public void setAddress(String address) {
         this.address = address;
-    }
-
-    ;
+    };
 
     public void setSalaryPerHr(double salaryPerHr) {
         this.salaryPerHr = salaryPerHr;
-    }
-
-    ;
+    };
 
     public void setDepartmentId(int departmentId) {
         this.departmentId = departmentId;
-    }
-
-    ;
+    };
 
     public int getEmployeeId() {
         return employeeId;
-    }
-
-    ;
+    };
 
     public String getEmployeeName() {
         return employeeName;
-    }
-
-    ;
+    };
 
     public String getAddress() {
         return address;
-    }
-
-    ;
+    };
 
     public double getSalaryPerHr(){
         return salaryPerHr;
-    }
-
-    ;
+    };
 
     public int getDepartmentId() {
         return departmentId;
-    }
+    };
 
-    ;
-
-
-    public abstract double calculateSalary();
+    protected abstract double calculateSalary();
 
     @Override
     public String toString() {
@@ -100,7 +76,8 @@ public abstract class Employee {
         if (this == o) return true;
         if (!(o instanceof Employee)) return false;
         Employee employee = (Employee) o;
-        return getEmployeeId() == employee.getEmployeeId() && Double.compare(employee.getSalaryPerHr(), getSalaryPerHr()) == 0 && getDepartmentId() == employee.getDepartmentId() && Objects.equals(getEmployeeName(), employee.getEmployeeName()) && Objects.equals(getAddress(), employee.getAddress());
+        return getEmployeeId() == employee.getEmployeeId() && Double.compare(employee.getSalaryPerHr(), getSalaryPerHr()) == 0 && getDepartmentId() == employee.getDepartmentId() &&
+                Objects.equals(getEmployeeName(), employee.getEmployeeName()) && Objects.equals(getAddress(), employee.getAddress());
     }
 
     @Override

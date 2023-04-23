@@ -1,40 +1,46 @@
-package UniversityProject;
+package university;
 
 import java.util.Objects;
 
-public class SupportStaff extends Employee{
+public class SupportStaff extends Employee {
 
     private int staffId;
     private String title;
     private double workingHours;
 
-    public SupportStaff(int employeeId, String employeeName, String address, double salaryPerHr, int departmentId, int staffId, String title, double workingHours){
+    public SupportStaff(int employeeId, String employeeName, String address, double salaryPerHr, int departmentId, int staffId, String title, double workingHours) {
         super(employeeId, employeeName, address, salaryPerHr, departmentId);
         this.staffId = staffId;
         this.title = title;
         this.workingHours = workingHours;
     };
 
-
-    public void setStaffId(int staffId){
+    public void setStaffId(int staffId) {
         this.staffId = staffId;
     };
-    public void setTitle(String title){
+
+    public void setTitle(String title) {
         this.title = title;
     };
-    public void setWorkingHours(double workingHours){
+
+    public void setWorkingHours(double workingHours) {
         this.workingHours = workingHours;
     };
-    public int getStaffId(){
+
+    public int getStaffId() {
         return staffId;
     };
-    public String getTitle(){
+
+    public String getTitle() {
         return title;
     };
-    public double getWorkingHours(){return workingHours;};
+
+    public double getWorkingHours() {
+        return workingHours;
+    };
 
     @Override
-    public double calculateSalary(){
+    public double calculateSalary() {
         return getSalaryPerHr() * workingHours;
     };
 
