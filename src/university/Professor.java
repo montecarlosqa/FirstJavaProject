@@ -3,41 +3,40 @@ package university;
 import java.util.Objects;
 
 public class Professor extends Employee{
-
     private int professorId;
     private String field;
     private double workingHours;
 
-    public Professor(int employeeId, String employeeName, String address, double salaryPerHr, int departmentId, int professorId, String field, double workingHours){
-        super(employeeId, employeeName, address, salaryPerHr, departmentId);
+    public Professor(String name, int age, boolean isMale, int employeeId, String address, double salaryPerHr, int departmentId, int professorId, String field, double workingHours){
+        super(name, age, isMale, employeeId, address, salaryPerHr, departmentId);
         this.professorId = professorId;
         this. field = field;
         this.workingHours = workingHours;
-    };
+    }
 
     public void setProfessorId(int professorId){
         this.professorId = professorId;
-    };
+    }
 
     public void setField(String field){
         this. field = field;
-    };
+    }
 
     public void setWorkingHours(double workingHours){
         this.workingHours = workingHours;
-    };
+    }
 
     public int getProfessorId(){
         return professorId;
-    };
+    }
 
     public String getField(){
         return field;
-    };
+    }
 
     public double getWorkingHours(){
         return workingHours;
-    };
+    }
 
     @Override
     public double calculateSalary(){
@@ -45,10 +44,16 @@ public class Professor extends Employee{
     };
 
     @Override
+    public void train(){
+        System.out.println(getName() + " is being trained");
+    };
+
+    @Override
     public String toString() {
         return "Professor{" +
                 "professorId=" + professorId +
                 ", field='" + field + '\'' +
+                ", workingHours=" + workingHours +
                 '}';
     }
 
