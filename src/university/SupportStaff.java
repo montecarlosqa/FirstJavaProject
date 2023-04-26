@@ -43,11 +43,6 @@ public class SupportStaff extends Employee {
     }
 
     @Override
-    public void train(){
-        System.out.println(getName() + " is being trained");
-    }
-
-    @Override
     public String toString() {
         return "SupportStaff{" +
                 "staffId=" + staffId +

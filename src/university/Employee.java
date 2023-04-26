@@ -56,7 +56,7 @@ public abstract class Employee extends Person implements Trainable{
 
     @Override
     public void train(){
-        System.out.println(getName() + "is being trained");
+        System.out.println(getName() + " is being trained");
     }
 
     @Override

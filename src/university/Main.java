@@ -28,7 +28,7 @@ public class Main {
         SupportStaff staff = new SupportStaff("Steve",34,true,9,"Virginia",25,10,9,"Equipment cleaner",160);
         System.out.println(staff);
         System.out.println(staff.calculateSalary());
-        professor.train();
+        staff.train();
         System.out.println("------------------------------");
         Auditorium auditorium = new Auditorium(50, "Lion king");
         System.out.println(auditorium);

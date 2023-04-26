@@ -44,11 +44,6 @@ public class Professor extends Employee{
     };
 
     @Override
-    public void train(){
-        System.out.println(getName() + " is being trained");
-    };
-
-    @Override
     public String toString() {
         return "Professor{" +
                 "professorId=" + professorId +
