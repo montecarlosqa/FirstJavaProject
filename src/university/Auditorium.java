@@ -3,7 +3,7 @@ package university;
 import java.util.Objects;
 
 public final class Auditorium implements Accessible {
-    private final int TOTAL_SEATS = 250;
+    private static final int TOTAL_SEATS = 250;
     private int occupiedSeats;
     private String eventName;
 
@@ -28,7 +28,7 @@ public final class Auditorium implements Accessible {
         return eventName;
     }
 
-    public int getTotalSeats() {
+    public static int getTotalSeats() {
         return TOTAL_SEATS;
     }
 

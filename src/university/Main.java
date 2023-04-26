@@ -61,5 +61,6 @@ public class Main {
         System.out.println(stud1.equals(stud3));
         System.out.println("stud1: " + stud1.hashCode() + ", stud2: " + stud2.hashCode() + ", stud3: " + stud3.hashCode());
 
+
     }
 }
