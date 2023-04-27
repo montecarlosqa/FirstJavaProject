@@ -1,5 +1,7 @@
 package university;
 
+import exceptions.NegativeHoursException;
+
 import java.util.Objects;
 
 public class SupportStaff extends Employee {
@@ -7,11 +9,15 @@ public class SupportStaff extends Employee {
     private String title;
     private double workingHours;
 
-    public SupportStaff(String name, int age, boolean isMale, int employeeId, String address, double salaryPerHr, int departmentId, int staffId, String title, double workingHours) {
+    public SupportStaff(String name, int age, boolean isMale, int employeeId, String address, double salaryPerHr, int departmentId, int staffId, String title, double workingHours) throws NegativeHoursException{
         super(name, age, isMale, employeeId, address, salaryPerHr, departmentId);
         this.staffId = staffId;
         this.title = title;
-        this.workingHours = workingHours;
+        if(workingHours < 0){
+            throw new NegativeHoursException("Working hours must be greater than 0.");
+        }else{
+            this.workingHours = workingHours;
+        }
     };
 
     public void setStaffId(int staffId) {
@@ -22,8 +28,12 @@ public class SupportStaff extends Employee {
         this.title = title;
     }
 
-    public void setWorkingHours(double workingHours) {
-        this.workingHours = workingHours;
+    public void setWorkingHours(double workingHours) throws NegativeHoursException{
+        if(workingHours < 0){
+            throw new NegativeHoursException("Working hours must be greater than 0.");
+        }else{
+            this.workingHours = workingHours;
+        }
     }
 
     public int getStaffId() {

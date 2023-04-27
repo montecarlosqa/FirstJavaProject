@@ -1,5 +1,8 @@
 package university;
 
+import exceptions.BusCapacityException;
+import exceptions.StudentCountException;
+
 public final class Bus {
     private int busId;
     private int driverId;
@@ -7,12 +10,16 @@ public final class Bus {
     private int busNumber;
     private int capacity;
 
-    public Bus(int busId, int driverId, String driverName, int busNumber, int capacity) {
+    public Bus(int busId, int driverId, String driverName, int busNumber, int capacity) throws BusCapacityException{
         this.busId = busId;
         this.driverId = driverId;
         this.driverName = driverName;
         this.busNumber = busNumber;
-        this.capacity = capacity;
+        if(capacity < 0){
+            throw new BusCapacityException();
+        }else{
+            this.capacity = capacity;
+        }
     }
 
     public void setBusId(int busId) {
@@ -31,8 +38,12 @@ public final class Bus {
         this.busNumber = busNumber;
     }
 
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
+    public void setCapacity(int capacity) throws BusCapacityException{
+        if(capacity < 0){
+            throw new BusCapacityException();
+        }else{
+            this.capacity = capacity;
+        }
     }
 
     public int getBusId() {

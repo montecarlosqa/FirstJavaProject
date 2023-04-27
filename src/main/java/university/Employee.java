@@ -1,5 +1,7 @@
 package university;
 
+import exceptions.CalculateSalaryException;
+
 import java.util.Objects;
 
 public abstract class Employee extends Person implements Trainable{
@@ -52,7 +54,7 @@ public abstract class Employee extends Person implements Trainable{
         System.out.println(getName() + " is taking a leave");
     }
 
-    protected abstract double calculateSalary();
+    protected abstract double calculateSalary() throws CalculateSalaryException;
 
     @Override
     public void train(){

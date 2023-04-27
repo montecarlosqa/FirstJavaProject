@@ -1,19 +1,29 @@
 package university;
 
+import exceptions.OccupiedSeatsException;
+
 import java.util.Objects;
 
 public final class Auditorium implements Accessible {
-    private static final int TOTAL_SEATS = 250;
+    public static final int TOTAL_SEATS = 250;
     private int occupiedSeats;
     private String eventName;
 
-    public Auditorium(int occupiedSeats, String eventName) {
-        this.occupiedSeats = occupiedSeats;
+    public Auditorium(int occupiedSeats, String eventName) throws OccupiedSeatsException{
+        if (occupiedSeats > TOTAL_SEATS || occupiedSeats < 0){
+            throw new OccupiedSeatsException("Occupied seats must be within the total seats.");
+        }else {
+            this.occupiedSeats = occupiedSeats;
+        }
         this.eventName = eventName;
     }
 
-    public void setOccupiedSeats(int occupiedSeats) {
-        this.occupiedSeats = occupiedSeats;
+    public void setOccupiedSeats(int occupiedSeats) throws OccupiedSeatsException{
+        if (occupiedSeats > TOTAL_SEATS || occupiedSeats < 0){
+            throw new OccupiedSeatsException("Occupied seats must be within the total seats.");
+        }else {
+            this.occupiedSeats = occupiedSeats;
+        }
     }
 
     public void setEventName(String eventName) {
@@ -26,10 +36,6 @@ public final class Auditorium implements Accessible {
 
     public String getEventName() {
         return eventName;
-    }
-
-    public static int getTotalSeats() {
-        return TOTAL_SEATS;
     }
 
     @Override

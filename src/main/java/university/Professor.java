@@ -1,5 +1,9 @@
 package university;
 
+import exceptions.CalculateSalaryException;
+import exceptions.LabCostsException;
+import exceptions.NegativeHoursException;
+
 import java.util.Objects;
 
 public class Professor extends Employee{
@@ -7,11 +11,15 @@ public class Professor extends Employee{
     private String field;
     private double workingHours;
 
-    public Professor(String name, int age, boolean isMale, int employeeId, String address, double salaryPerHr, int departmentId, int professorId, String field, double workingHours){
+    public Professor(String name, int age, boolean isMale, int employeeId, String address, double salaryPerHr, int departmentId, int professorId, String field, double workingHours) throws NegativeHoursException{
         super(name, age, isMale, employeeId, address, salaryPerHr, departmentId);
         this.professorId = professorId;
         this. field = field;
-        this.workingHours = workingHours;
+        if(workingHours < 0){
+            throw new NegativeHoursException("Working hours must be greater than 0.");
+        }else{
+            this.workingHours = workingHours;
+        }
     }
 
     public void setProfessorId(int professorId){
@@ -19,11 +27,15 @@ public class Professor extends Employee{
     }
 
     public void setField(String field){
-        this. field = field;
+            this. field = field;
     }
 
-    public void setWorkingHours(double workingHours){
-        this.workingHours = workingHours;
+    public void setWorkingHours(double workingHours) throws NegativeHoursException{
+        if(workingHours < 0){
+            throw new NegativeHoursException("Working hours must be greater than 0.");
+        }else{
+            this.workingHours = workingHours;
+        }
     }
 
     public int getProfessorId(){
@@ -39,9 +51,14 @@ public class Professor extends Employee{
     }
 
     @Override
-    public double calculateSalary(){
-        return getSalaryPerHr() * workingHours;
-    };
+    public double calculateSalary() throws CalculateSalaryException{
+        double calculatedSalary = getSalaryPerHr() * workingHours;
+        if(calculatedSalary < 0){
+            throw new CalculateSalaryException();
+        }else {
+            return calculatedSalary;
+        }
+    }
 
     @Override
     public String toString() {

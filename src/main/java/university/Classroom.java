@@ -1,14 +1,21 @@
 package university;
 
+import exceptions.LabCostsException;
+import exceptions.StudentCountException;
+
 public class Classroom implements Accessible {
     private int classId;
     private String className;
     private int studentCount;
 
-    public Classroom(int classId, String className, int studentCount){
+    public Classroom(int classId, String className, int studentCount) throws StudentCountException{
         this.classId = classId;
         this.className = className;
-        this.studentCount = studentCount;
+        if(studentCount < 0){
+            throw new StudentCountException("Students must be greater than 0.");
+        }else{
+            this.studentCount = studentCount;
+        }
     }
 
     public void setClassId(int classId){
@@ -19,8 +26,12 @@ public class Classroom implements Accessible {
         this.className = className;
     }
 
-    public void setStudentCount(int studentCount){
-        this.studentCount = studentCount;
+    public void setStudentCount(int studentCount) throws StudentCountException{
+        if(studentCount < 0){
+            throw new StudentCountException("Students must be greater than 0.");
+        }else{
+            this.studentCount = studentCount;
+        }
     }
 
     public int getClassId(){
