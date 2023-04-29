@@ -1,8 +1,10 @@
 package university;
 
+import exceptions.BorrowedBookException;
+
 import java.util.Objects;
 
-public class Student extends Person implements Trainable{
+public class Student extends Person implements Trainable {
     private int studentId;
     private String address;
     private String section;
@@ -51,6 +53,14 @@ public class Student extends Person implements Trainable{
     @Override
     public void train(){
         System.out.println(getName()+ " is being trained");
+    }
+
+    public void borrowBook(Book book) throws BorrowedBookException{
+        if(book.getIsBorrowed()){
+            throw new BorrowedBookException();
+        }else{
+            System.out.println(getName() + " has borrowed the book " + book.getTitle());
+        }
     }
 
     @Override

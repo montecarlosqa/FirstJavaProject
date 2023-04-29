@@ -38,6 +38,11 @@ public final class Auditorium implements Accessible {
         return eventName;
     }
 
+    public void bookAuditorium(){
+
+    }
+
+
     @Override
     public void access(){
         System.out.println("Auditorium is accessible");
