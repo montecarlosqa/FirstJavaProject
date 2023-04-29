@@ -16,7 +16,7 @@ public final class Bus {
         this.driverName = driverName;
         this.busNumber = busNumber;
         if(capacity < 0){
-            throw new BusCapacityException();
+            throw new BusCapacityException("Bus capacity cannot be less than zero");
         }else{
             this.capacity = capacity;
         }
@@ -40,7 +40,7 @@ public final class Bus {
 
     public void setCapacity(int capacity) throws BusCapacityException{
         if(capacity < 0){
-            throw new BusCapacityException();
+            throw new BusCapacityException("Bus capacity cannot be less than zero");
         }else{
             this.capacity = capacity;
         }

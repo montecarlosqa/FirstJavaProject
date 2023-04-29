@@ -4,7 +4,7 @@ import exceptions.CalculateSalaryException;
 
 import java.util.Objects;
 
-public abstract class Employee extends Person implements Trainable{
+public abstract class Employee extends Person implements Trainable, Payable, Promotable{
     protected int employeeId;
     protected String address;
     protected double salaryPerHr;
@@ -59,6 +59,16 @@ public abstract class Employee extends Person implements Trainable{
     @Override
     public void train(){
         System.out.println(getName() + " is being trained");
+    }
+
+    @Override
+    public void pay(){
+        System.out.println(getName() + " is getting paid");
+    }
+
+    @Override
+    public void promote(){
+        System.out.println(getName() + " is getting promoted");
     }
 
     @Override
