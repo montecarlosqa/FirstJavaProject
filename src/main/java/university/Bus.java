@@ -1,18 +1,22 @@
 package university;
 
+import java.util.List;
+
 public final class Bus {
     private int busId;
     private int driverId;
     private String driverName;
     private int busNumber;
     private int capacity;
+    private List<Student> students;
 
-    public Bus(int busId, int driverId, String driverName, int busNumber, int capacity) {
+    public Bus(int busId, int driverId, String driverName, int busNumber, int capacity, List<Student> students) {
         this.busId = busId;
         this.driverId = driverId;
         this.driverName = driverName;
         this.busNumber = busNumber;
         this.capacity = capacity;
+        this.students = students;
     }
 
     public void setBusId(int busId) {
@@ -35,6 +39,10 @@ public final class Bus {
             this.capacity = capacity;
     }
 
+    public void setStudents(List<Student> students){
+        this.students = students;
+    }
+
     public int getBusId() {
         return busId;
     }
@@ -53,6 +61,10 @@ public final class Bus {
 
     public int getCapacity() {
         return capacity;
+    }
+
+    public List<Student> getStudents(){
+        return students;
     }
 
     @Override

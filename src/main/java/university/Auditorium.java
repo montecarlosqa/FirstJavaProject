@@ -2,6 +2,7 @@ package university;
 
 import exceptions.OccupiedSeatsException;
 
+import java.util.List;
 import java.util.Objects;
 
 public final class Auditorium implements Accessible {
@@ -38,10 +39,11 @@ public final class Auditorium implements Accessible {
         return eventName;
     }
 
-    public void bookAuditorium(){
 
+    public int getAvailableSeats(){
+        int availableSeats;
+        return availableSeats = TOTAL_SEATS - occupiedSeats;
     }
-
 
     @Override
     public void access(){
@@ -49,24 +51,23 @@ public final class Auditorium implements Accessible {
     }
 
     @Override
-    public String toString() {
-        return "Auditorium{" +
-                "TOTAL_SEATS=" + TOTAL_SEATS +
-                ", occupiedSeats=" + occupiedSeats +
-                ", eventName='" + eventName + '\'' +
-                '}';
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Auditorium)) return false;
         Auditorium that = (Auditorium) o;
-        return TOTAL_SEATS == that.TOTAL_SEATS && getOccupiedSeats() == that.getOccupiedSeats() && Objects.equals(getEventName(), that.getEventName());
+        return getOccupiedSeats() == that.getOccupiedSeats() && Objects.equals(getEventName(), that.getEventName());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(TOTAL_SEATS, getOccupiedSeats(), getEventName());
+        return Objects.hash(getOccupiedSeats(), getEventName());
+    }
+
+    @Override
+    public String toString() {
+        return "Auditorium{" +
+                "occupiedSeats=" + occupiedSeats +
+                ", eventName='" + eventName + '\'' +
+                '}';
     }
 }

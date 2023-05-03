@@ -1,19 +1,11 @@
 package university;
 
-public class Book extends Library implements Obtainable{
+public class Book implements Obtainable{
 
     private int bookId;
     private String title;
     private String author;
     private boolean isBorrowed;
-
-    public Book(int librarianId, int numberOfShelves, int booksCapacity, int bookId, String title, String author, boolean isBorrowed){
-        super(librarianId, numberOfShelves, booksCapacity);
-        this.bookId = bookId;
-        this.title = title;
-        this.author = author;
-        this.isBorrowed = isBorrowed;
-    }
 
     public Book(int bookId, String title, String author, boolean isBorrowed){
         this.bookId = bookId;
@@ -57,5 +49,15 @@ public class Book extends Library implements Obtainable{
     @Override
     public void obtain(){
         System.out.println(getTitle() + " was obtained");
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookId=" + bookId +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", isBorrowed=" + isBorrowed +
+                '}';
     }
 }

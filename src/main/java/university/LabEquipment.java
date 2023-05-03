@@ -2,19 +2,24 @@ package university;
 
 import exceptions.LabCostsException;
 
-public class LabEquipment extends Lab implements Obtainable{
+public class LabEquipment implements Obtainable{
 
+    private int labEquipmentId;
     private String equipmentName;
     private double costs;
 
-    public LabEquipment(int labId, int inChargedId, String labName, int equipmentId, String equipmentName, double costs) throws LabCostsException{
-        super(labId, inChargedId, labName, equipmentId);
+    public LabEquipment(int labEquipmentId, String equipmentName, double costs) throws LabCostsException{
+        this.labEquipmentId = labEquipmentId;
         this.equipmentName = equipmentName;
         if(costs < 0){
             throw new LabCostsException("Lab costs must be greater than 0.");
         }else{
             this.costs = costs;
         }
+    }
+
+    public void setLabEquipmentId(int equipmentId){
+        this.labEquipmentId = labEquipmentId;
     }
 
     public void setEquipmentName(String equipmentName){
@@ -27,6 +32,10 @@ public class LabEquipment extends Lab implements Obtainable{
         }else{
             this.costs = costs;
         }
+    }
+
+    public int getLabEquipmentId(){
+        return labEquipmentId;
     }
 
     public String getEquipmentName(){

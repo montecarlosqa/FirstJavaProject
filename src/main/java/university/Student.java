@@ -2,6 +2,7 @@ package university;
 
 import exceptions.BorrowedBookException;
 
+import java.util.List;
 import java.util.Objects;
 
 public class Student extends Person implements Trainable {
@@ -9,13 +10,15 @@ public class Student extends Person implements Trainable {
     private String address;
     private String section;
     private int busId;
+    private List<Class> classes;
 
-    public Student(String name, int age, boolean isMale, int studentId, String address, String section, int busId) {
+    public Student(String name, int age, boolean isMale, int studentId, String address, String section, int busId, List<Class> classes) {
         super(name, age, isMale);
         this.studentId = studentId;
         this.address = address;
         this.section = section;
         this.busId = busId;
+        this.classes = classes;
     }
 
     public void setStudentId(int studentId) {
@@ -34,6 +37,10 @@ public class Student extends Person implements Trainable {
         this.busId = busId;
     }
 
+    public void setClasses(List<Class> classes){
+        this.classes = classes;
+    }
+
     public int getStudentId() {
         return studentId;
     }
@@ -48,6 +55,10 @@ public class Student extends Person implements Trainable {
 
     public int getBusId() {
         return busId;
+    }
+
+    public List<Class> getClasses(){
+        return classes;
     }
 
     @Override

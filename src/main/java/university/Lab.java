@@ -1,16 +1,18 @@
 package university;
 
+import java.util.List;
+
 public class Lab implements Accessible {
     private int labId;
     private int inChargedId;
     private String labName;
-    private int equipmentId;
+    private List<LabEquipment> labEquipment;
 
-    public Lab(int labId, int inChargedId, String labName, int equipmentId) {
+    public Lab(int labId, int inChargedId, String labName, List<LabEquipment> labEquipment) {
         this.labId = labId;
         this.inChargedId = inChargedId;
         this.labName = labName;
-        this.equipmentId = equipmentId;
+        this.labEquipment = labEquipment;
     };
 
     public void setLabId(int labId) {
@@ -25,8 +27,8 @@ public class Lab implements Accessible {
         this.labName = labName;
     }
 
-    public void setEquipmentId(int equipmentId) {
-        this.equipmentId = equipmentId;
+    public  void setLabEquipment(List<LabEquipment> labEquipment){
+        this. labEquipment = labEquipment;
     }
 
     public int getLabId() {
@@ -41,9 +43,10 @@ public class Lab implements Accessible {
         return labName;
     }
 
-    public int getEquipmentId() {
-        return equipmentId;
+    public List<LabEquipment> getLabEquipment(){
+        return labEquipment;
     }
+
 
 //    public void isOccupied(boolean isOccupied) {
 //        if (!isOccupied) {
@@ -64,7 +67,6 @@ public class Lab implements Accessible {
                 "labId=" + labId +
                 ", inChargedId=" + inChargedId +
                 ", labName='" + labName + '\'' +
-                ", equipmentId=" + equipmentId +
                 '}';
     }
 }

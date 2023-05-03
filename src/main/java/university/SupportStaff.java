@@ -18,7 +18,7 @@ public class SupportStaff extends Employee {
         }else{
             this.workingHours = workingHours;
         }
-    };
+    }
 
     public void setStaffId(int staffId) {
         this.staffId = staffId;
