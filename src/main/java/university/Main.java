@@ -2,8 +2,8 @@ package university;
 
 import exceptions.*;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ public class Main {
         getIndentLine();
         //custom exception is thrown if salary per hour is less than 0
         try{
-            Professor prof = new Professor("James",60,true,30,"Ohio",50,7,25,"Computer Science", 5);
+            Professor prof = new Professor("James",60,true,30,"Ohio",-2,7,25,"Computer Science", 5);
             System.out.println(prof.calculateSalary());
         }catch (CalculateSalaryException cse){
             logger.error("Salary cannot be negative");
