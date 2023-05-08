@@ -75,3 +75,9 @@
 2023-05-08 11:07:42,118 ERROR u.Main [main] This book is already borrowed
 2023-05-08 11:09:12,443 ERROR u.Main [main] Salary cannot be negative
 2023-05-08 11:09:12,446 ERROR u.Main [main] This book is already borrowed
+2023-05-08 11:11:08,725 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 11:11:08,728 ERROR u.Main [main] This book is already borrowed
+2023-05-08 11:14:11,985 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 11:14:11,988 ERROR u.Main [main] This book is already borrowed
+2023-05-08 11:17:20,444 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 11:17:20,448 ERROR u.Main [main] This book is already borrowed

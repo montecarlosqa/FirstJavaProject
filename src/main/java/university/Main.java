@@ -125,11 +125,16 @@ public class Main {
             String homecomingFile = FileUtils.readFileToString(new File("src/main/resources/homecoming.txt"));
             System.out.println(homecomingFile);
 
-            String[] wordsFromHomecomingFile = StringUtils.split(homecomingFile, " ");
+            //Splitting the lower cased words from the homecoming file.
+            String[] wordsFromHomecomingFile = StringUtils.split(homecomingFile.toLowerCase(), " ");
 
+            //returns a stream consisting of distinct elements in a stream and counts them.
             String countUniqueWords = String.valueOf(Arrays.stream(wordsFromHomecomingFile).distinct().count());
 
+            //Specifies the location of the file where we will write the number of unique words.
             FileUtils.writeStringToFile(new File("src/main/resources/words.txt"), "Number of unique words: " + countUniqueWords);
+
+            //Reads the file that contains the number of unique words.
             String newFileContent = FileUtils.readFileToString(new File("src/main/resources/words.txt"));
             System.out.println(newFileContent);
 
