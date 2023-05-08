@@ -1,0 +1,77 @@
+2023-04-27 11:13:43,274 ERROR u.Main [main] error
+2023-05-01 12:14:08,601 ERROR u.Main [main] error
+2023-05-01 12:15:16,989 ERROR u.Main [main] error
+2023-05-01 13:50:11,553 ERROR u.Main [main] error
+2023-05-01 13:59:21,090 ERROR u.Main [main] Salary cannot be negative
+2023-05-01 13:59:21,093 ERROR u.Main [main] error
+2023-05-01 13:59:21,094 FATAL u.Main [main] System crashed. Shutting down...
+2023-05-01 13:59:53,515 ERROR u.Main [main] Salary cannot be negative
+2023-05-01 14:04:48,294 WARN u.Main [main] Potential security vulnerability detected in user input: '...'
+2023-05-01 14:04:48,294 ERROR u.Main [main] Failed to process order. Error: {. . .}
+2023-05-01 14:04:48,294 FATAL u.Main [main] System crashed. Shutting down...
+2023-05-01 14:05:37,548 WARN u.Main [main] Potential security vulnerability detected in user input: '...'
+2023-05-01 14:05:37,549 ERROR u.Main [main] Failed to process order. Error: {. . .}
+2023-05-01 14:05:37,549 FATAL u.Main [main] System crashed. Shutting down...
+2023-05-02 07:39:23,471 WARN u.Main [main] Potential security vulnerability detected in user input: '...'
+2023-05-02 07:39:23,471 ERROR u.Main [main] Failed to process order. Error: {. . .}
+2023-05-02 07:39:23,471 FATAL u.Main [main] System crashed. Shutting down...
+2023-05-02 07:46:56,606 ERROR u.Main [main] This book is already borrowed
+2023-05-02 09:23:34,137 ERROR u.Main [main] This book is already borrowed
+2023-05-02 09:24:23,866 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:24:31,910 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:29:26,839 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:31:53,307 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:32:59,557 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:36:25,615 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:40:38,798 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:41:11,427 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:47:03,128 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:47:16,615 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:47:41,278 ERROR u.Main [main] This book is already borrowed
+2023-05-03 04:48:52,720 ERROR u.Main [main] This book is already borrowed
+2023-05-03 05:19:18,550 ERROR u.Main [main] This book is already borrowed
+2023-05-03 06:20:13,967 ERROR u.Main [main] This book is already borrowed
+2023-05-04 07:31:04,567 ERROR u.Main [main] Salary cannot be negative
+2023-05-05 07:37:53,826 ERROR u.Main [main] Salary cannot be negative
+2023-05-05 07:46:17,135 ERROR u.Main [main] Salary cannot be negative
+2023-05-05 08:35:34,439 ERROR u.Main [main] Salary cannot be negative
+2023-05-05 08:36:28,167 ERROR u.Main [main] Salary cannot be negative
+2023-05-05 08:36:28,170 ERROR u.Main [main] This book is already borrowed
+2023-05-05 08:36:50,651 ERROR u.Main [main] Salary cannot be negative
+2023-05-05 08:36:50,654 ERROR u.Main [main] This book is already borrowed
+2023-05-05 08:37:04,027 ERROR u.Main [main] Salary cannot be negative
+2023-05-05 08:37:04,030 ERROR u.Main [main] This book is already borrowed
+2023-05-05 10:59:04,658 ERROR u.Main [main] Salary cannot be negative
+2023-05-05 10:59:04,661 ERROR u.Main [main] This book is already borrowed
+2023-05-08 08:22:09,003 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 08:22:09,006 ERROR u.Main [main] This book is already borrowed
+2023-05-08 08:44:39,032 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 08:44:39,035 ERROR u.Main [main] This book is already borrowed
+2023-05-08 08:44:52,228 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 08:44:52,231 ERROR u.Main [main] This book is already borrowed
+2023-05-08 08:48:01,079 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 08:48:01,082 ERROR u.Main [main] This book is already borrowed
+2023-05-08 09:18:43,244 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 09:18:43,246 ERROR u.Main [main] This book is already borrowed
+2023-05-08 09:49:46,120 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 09:49:46,123 ERROR u.Main [main] This book is already borrowed
+2023-05-08 09:50:00,889 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 09:50:00,892 ERROR u.Main [main] This book is already borrowedexceptions.BorrowedBookException
+2023-05-08 09:50:30,751 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 09:50:30,755 ERROR u.Main [main] This book is already borrowed exceptions.BorrowedBookException
+2023-05-08 10:47:06,883 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 10:47:06,884 ERROR u.Main [main] This book is already borrowed
+2023-05-08 11:02:09,928 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 11:02:09,931 ERROR u.Main [main] This book is already borrowed
+2023-05-08 11:04:13,202 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 11:04:13,205 ERROR u.Main [main] This book is already borrowed
+2023-05-08 11:04:39,590 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 11:04:39,593 ERROR u.Main [main] This book is already borrowed
+2023-05-08 11:05:34,261 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 11:05:34,265 ERROR u.Main [main] This book is already borrowed
+2023-05-08 11:07:27,656 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 11:07:27,658 ERROR u.Main [main] This book is already borrowed
+2023-05-08 11:07:42,115 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 11:07:42,118 ERROR u.Main [main] This book is already borrowed
+2023-05-08 11:09:12,443 ERROR u.Main [main] Salary cannot be negative
+2023-05-08 11:09:12,446 ERROR u.Main [main] This book is already borrowed
