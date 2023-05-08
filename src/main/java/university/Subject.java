@@ -1,12 +1,12 @@
 package university;
 
-public class Class {
+public class Subject {
 
     private String title;
     private int units;
     private float hoursPerWeek;
 
-    public Class(String title, int units, float hoursPerWeek){
+    public Subject(String title, int units, float hoursPerWeek){
         this.title = title;
         this.units = units;
         this.hoursPerWeek = hoursPerWeek;

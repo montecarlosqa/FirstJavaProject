@@ -10,15 +10,15 @@ public class Student extends Person implements Trainable {
     private String address;
     private String section;
     private int busId;
-    private List<Class> classes;
+    private List<Subject> subjects;
 
-    public Student(String name, int age, boolean isMale, int studentId, String address, String section, int busId, List<Class> classes) {
+    public Student(String name, int age, boolean isMale, int studentId, String address, String section, int busId, List<Subject> subjects) {
         super(name, age, isMale);
         this.studentId = studentId;
         this.address = address;
         this.section = section;
         this.busId = busId;
-        this.classes = classes;
+        this.subjects = subjects;
     }
 
     public void setStudentId(int studentId) {
@@ -37,8 +37,8 @@ public class Student extends Person implements Trainable {
         this.busId = busId;
     }
 
-    public void setClasses(List<Class> classes){
-        this.classes = classes;
+    public void setClasses(List<Subject> subjects){
+        this.subjects = subjects;
     }
 
     public int getStudentId() {
@@ -57,8 +57,8 @@ public class Student extends Person implements Trainable {
         return busId;
     }
 
-    public List<Class> getClasses(){
-        return classes;
+    public List<Subject> getClasses(){
+        return subjects;
     }
 
     @Override
