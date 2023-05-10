@@ -19,8 +19,8 @@ public class Main {
 
         //BookSeatsException will be thrown if we booked more or less than 250.
         Auditorium auditorium1 = new Auditorium("Lion king");
-        System.out.println(auditorium1.bookSeats(249));
-        System.out.println(auditorium1.bookSeats(1));
+        System.out.println(auditorium1.bookSeats(220));
+        System.out.println(auditorium1.bookSeats(60));
         //costs cannot be less than 0
         LabEquipment labEquipment = new LabEquipment(5,"Beaker",1);
         //working hours cannot be less than 0.

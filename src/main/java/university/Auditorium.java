@@ -30,7 +30,7 @@ public final class Auditorium implements Accessible {
             this.availableSeats -= seats;
             return true;
         }
-        throw new BookSeatsException("The auditorium is fully booked.");
+        throw new BookSeatsException("The seats you booked have either exceeded or invalid based on the available seats: " + getAvailableSeats());
     }
 
     @Override
