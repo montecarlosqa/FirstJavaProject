@@ -20,7 +20,7 @@ public class Main {
 
     public static void main(String[] args) throws BookSeatsException, LabCostsException, NegativeHoursException{
 
-        //BookSeatsException will be thrown if we booked more or less than 250.
+        //BookSeatsException will be thrown if we booked less than 0, or more than the available seats.
         Auditorium auditorium1 = new Auditorium("Lion king");
         System.out.println(auditorium1.bookSeats(220));
         System.out.println(auditorium1.bookSeats(60));
