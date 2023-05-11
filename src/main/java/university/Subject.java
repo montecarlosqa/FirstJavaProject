@@ -1,47 +1,38 @@
 package university;
 
+import enums.SubjectUnits;
+
 public class Subject {
 
     private String title;
-    private int units;
-    private float hoursPerWeek;
+    private SubjectUnits subjectUnit;
 
-    public Subject(String title, int units, float hoursPerWeek){
+    public Subject(String title, SubjectUnits subjectUnit){
         this.title = title;
-        this.units = units;
-        this.hoursPerWeek = hoursPerWeek;
+        this.subjectUnit = subjectUnit;
     }
 
     public void setTitle(){
         this.title = title;
     }
 
-    public void setUnits(){
-        this.units = units;
-    }
-
-    public void setHoursPerWeek(){
-        this.hoursPerWeek = hoursPerWeek;
+    public void setSubjectUnit(){
+        this.subjectUnit = subjectUnit;
     }
 
     public String getTitle(){
         return title;
     }
 
-    public int getUnits(){
-        return units;
-    }
-
-    public float getHoursPerWeek(){
-        return hoursPerWeek;
+    public SubjectUnits getSubjectUnit(){
+        return subjectUnit;
     }
 
     @Override
     public String toString() {
-        return "Class{" +
+        return "Subject{" +
                 "title='" + title + '\'' +
-                ", units=" + units +
-                ", hoursPerWeek=" + hoursPerWeek +
+                ", subjectUnit=" + subjectUnit +
                 '}';
     }
 }

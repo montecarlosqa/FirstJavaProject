@@ -1,5 +1,6 @@
 package university;
 
+import enums.Compensation;
 import exceptions.CalculateSalaryException;
 import exceptions.LabCostsException;
 import exceptions.NegativeHoursException;
@@ -51,13 +52,20 @@ public class Professor extends Employee{
     }
 
     @Override
-    public double calculateSalary() throws CalculateSalaryException{
-        double calculatedSalary = getSalaryPerHr() * workingHours;
-        if(calculatedSalary < 0){
-            throw new CalculateSalaryException();
-        }else {
-            return calculatedSalary;
+    public double calculateSalary(Compensation compensation) throws CalculateSalaryException{
+        double salary = 0;
+
+        if(compensation == Compensation.Yearly){
+            salary = getSalaryPerHr() * compensation.getHoursOfWork();
+        } else if (compensation == Compensation.Monthly) {
+            salary = getSalaryPerHr() * compensation.getHoursOfWork();
+        } else if ((compensation == Compensation.Weekly)) {
+            salary = getSalaryPerHr() * compensation.getHoursOfWork();
         }
+        if(salary < 0){
+            throw new CalculateSalaryException();
+        }
+        return salary;
     }
 
     @Override

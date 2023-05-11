@@ -1,5 +1,7 @@
 package university;
 
+import enums.Compensation;
+import exceptions.CalculateSalaryException;
 import exceptions.NegativeHoursException;
 
 import java.util.Objects;
@@ -47,9 +49,22 @@ public class SupportStaff extends Employee {
     public double getWorkingHours() {
         return workingHours;
     }
+
     @Override
-    public double calculateSalary() {
-        return getSalaryPerHr() * workingHours;
+    public double calculateSalary(Compensation compensation) throws CalculateSalaryException{
+        double salary = 0;
+
+        if(compensation == Compensation.Yearly){
+            salary = getSalaryPerHr() * compensation.getHoursOfWork();
+        } else if (compensation == Compensation.Monthly) {
+            salary = getSalaryPerHr() * compensation.getHoursOfWork();
+        } else if ((compensation == Compensation.Weekly)) {
+            salary = getSalaryPerHr() * compensation.getHoursOfWork();
+        }
+        if(salary < 0){
+            throw new CalculateSalaryException();
+        }
+        return salary;
     }
 
     @Override

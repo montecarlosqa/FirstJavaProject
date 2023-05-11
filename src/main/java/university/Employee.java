@@ -1,5 +1,6 @@
 package university;
 
+import enums.Compensation;
 import exceptions.CalculateSalaryException;
 
 import java.util.Objects;
@@ -54,7 +55,7 @@ public abstract class Employee extends Person implements Trainable, Payable, Pro
         System.out.println(getName() + " is taking a leave");
     }
 
-    protected abstract double calculateSalary() throws CalculateSalaryException;
+    protected abstract double calculateSalary(Compensation compensation) throws CalculateSalaryException;
 
     @Override
     public void train(){

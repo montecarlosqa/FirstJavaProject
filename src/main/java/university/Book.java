@@ -1,16 +1,20 @@
 package university;
 
+import enums.BookCategories;
+
 public class Book implements Obtainable{
 
     private int bookId;
     private String title;
     private String author;
     private boolean isBorrowed;
+    private BookCategories bookCategory;
 
-    public Book(int bookId, String title, String author, boolean isBorrowed){
+    public Book(int bookId, String title, String author, BookCategories bookCategory, boolean isBorrowed){
         this.bookId = bookId;
         this.title = title;
         this.author = author;
+        this.bookCategory = bookCategory;
         this.isBorrowed = isBorrowed;
     }
 
@@ -24,6 +28,10 @@ public class Book implements Obtainable{
 
     public void setAuthor(String author){
         this.author = author;
+    }
+
+    public void setBookCategory(BookCategories bookCategory){
+        this.bookCategory = bookCategory;
     }
 
     public void setIsBorrowed(boolean isBorrowed){
@@ -42,6 +50,10 @@ public class Book implements Obtainable{
         return author;
     }
 
+    public BookCategories getBookCategory(){
+        return bookCategory;
+    }
+
     public boolean getIsBorrowed(){
         return isBorrowed;
     }
@@ -58,6 +70,7 @@ public class Book implements Obtainable{
                 ", title='" + title + '\'' +
                 ", author='" + author + '\'' +
                 ", isBorrowed=" + isBorrowed +
+                ", bookCategory=" + bookCategory +
                 '}';
     }
 }
