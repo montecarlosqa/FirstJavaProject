@@ -2,6 +2,8 @@ package university;
 
 import exceptions.LabCostsException;
 
+import java.util.Objects;
+
 public class LabEquipment implements Obtainable{
 
     private int labEquipmentId;
@@ -54,8 +56,22 @@ public class LabEquipment implements Obtainable{
     @Override
     public String toString() {
         return "LabEquipment{" +
-                "equipmentName='" + equipmentName + '\'' +
+                "labEquipmentId=" + labEquipmentId +
+                ", equipmentName='" + equipmentName + '\'' +
                 ", costs=" + costs +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof LabEquipment)) return false;
+        LabEquipment that = (LabEquipment) o;
+        return getLabEquipmentId() == that.getLabEquipmentId() && Double.compare(that.getCosts(), getCosts()) == 0 && Objects.equals(getEquipmentName(), that.getEquipmentName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getLabEquipmentId(), getEquipmentName(), getCosts());
     }
 }

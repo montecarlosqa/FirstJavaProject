@@ -2,6 +2,8 @@ package university;
 
 import enums.BookCategories;
 
+import java.util.Objects;
+
 public class Book implements Obtainable{
 
     private int bookId;
@@ -72,5 +74,17 @@ public class Book implements Obtainable{
                 ", isBorrowed=" + isBorrowed +
                 ", bookCategory=" + bookCategory +
                 '}';
+    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Book)) return false;
+        Book book = (Book) o;
+        return getBookId() == book.getBookId() && isBorrowed == book.isBorrowed && Objects.equals(getTitle(), book.getTitle()) && Objects.equals(getAuthor(), book.getAuthor()) && getBookCategory() == book.getBookCategory();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getBookId(), getTitle(), getAuthor(), isBorrowed, getBookCategory());
     }
 }

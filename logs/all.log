@@ -265,3 +265,974 @@
 2023-05-11 11:17:38,732 INFO u.Main [main] Supplier Interface
 2023-05-11 11:17:38,737 INFO u.Main [main] Consumer Interface
 2023-05-11 11:17:38,738 INFO u.Main [main] BiConsumer Interface
+2023-05-12 12:13:13,456 ERROR u.Main [main] Salary cannot be negative
+2023-05-12 12:13:13,504 INFO u.Main [main] Homecoming Announcement
+2023-05-12 12:13:13,514 INFO u.Main [main] Function Interface
+2023-05-12 12:13:13,514 INFO u.Main [main] Predicate Interface
+2023-05-12 12:13:13,515 INFO u.Main [main] Supplier Interface
+2023-05-12 12:13:13,520 INFO u.Main [main] Consumer Interface
+2023-05-12 12:13:13,520 INFO u.Main [main] BiConsumer Interface
+2023-05-12 12:13:36,672 ERROR u.Main [main] Salary cannot be negative
+2023-05-12 12:13:36,701 INFO u.Main [main] Homecoming Announcement
+2023-05-12 12:13:36,709 INFO u.Main [main] Function Interface
+2023-05-12 12:13:36,710 INFO u.Main [main] Predicate Interface
+2023-05-12 12:13:36,710 INFO u.Main [main] Supplier Interface
+2023-05-12 12:13:36,715 INFO u.Main [main] Consumer Interface
+2023-05-12 12:13:36,715 INFO u.Main [main] BiConsumer Interface
+2023-05-12 12:14:17,759 ERROR u.Main [main] Salary cannot be negative
+2023-05-12 12:14:17,790 INFO u.Main [main] Homecoming Announcement
+2023-05-12 12:14:17,799 INFO u.Main [main] Function Interface
+2023-05-12 12:14:17,800 INFO u.Main [main] Predicate Interface
+2023-05-12 12:14:17,800 INFO u.Main [main] Supplier Interface
+2023-05-12 12:14:17,805 INFO u.Main [main] Consumer Interface
+2023-05-12 12:14:17,806 INFO u.Main [main] BiConsumer Interface
+2023-05-12 12:15:52,600 ERROR u.Main [main] Salary cannot be negative
+2023-05-12 12:15:52,623 INFO u.Main [main] Homecoming Announcement
+2023-05-12 12:15:52,631 INFO u.Main [main] Function Interface
+2023-05-12 12:15:52,632 INFO u.Main [main] Predicate Interface
+2023-05-12 12:15:52,632 INFO u.Main [main] Supplier Interface
+2023-05-12 12:15:52,637 INFO u.Main [main] Consumer Interface
+2023-05-12 12:15:52,637 INFO u.Main [main] BiConsumer Interface
+2023-05-12 12:16:10,747 ERROR u.Main [main] Salary cannot be negative
+2023-05-12 12:16:10,776 INFO u.Main [main] Homecoming Announcement
+2023-05-12 12:16:10,784 INFO u.Main [main] Function Interface
+2023-05-12 12:16:10,784 INFO u.Main [main] Predicate Interface
+2023-05-12 12:16:10,785 INFO u.Main [main] Supplier Interface
+2023-05-12 12:16:10,790 INFO u.Main [main] Consumer Interface
+2023-05-12 12:16:10,790 INFO u.Main [main] BiConsumer Interface
+2023-05-12 12:16:35,134 ERROR u.Main [main] Salary cannot be negative
+2023-05-12 12:16:35,162 INFO u.Main [main] Homecoming Announcement
+2023-05-12 12:16:35,170 INFO u.Main [main] Function Interface
+2023-05-12 12:16:35,170 INFO u.Main [main] Predicate Interface
+2023-05-12 12:16:35,171 INFO u.Main [main] Supplier Interface
+2023-05-12 12:16:35,176 INFO u.Main [main] Consumer Interface
+2023-05-12 12:16:35,176 INFO u.Main [main] BiConsumer Interface
+2023-05-12 12:18:06,412 ERROR u.Main [main] Salary cannot be negative
+2023-05-12 12:18:06,440 INFO u.Main [main] Homecoming Announcement
+2023-05-12 12:18:06,448 INFO u.Main [main] Function Interface
+2023-05-12 12:18:06,448 INFO u.Main [main] Predicate Interface
+2023-05-12 12:18:06,449 INFO u.Main [main] Supplier Interface
+2023-05-12 12:18:06,454 INFO u.Main [main] Consumer Interface
+2023-05-12 12:18:06,454 INFO u.Main [main] BiConsumer Interface
+2023-05-12 12:18:24,165 ERROR u.Main [main] Salary cannot be negative
+2023-05-12 12:18:24,192 INFO u.Main [main] Homecoming Announcement
+2023-05-12 12:18:24,201 INFO u.Main [main] Function Interface
+2023-05-12 12:18:24,201 INFO u.Main [main] Predicate Interface
+2023-05-12 12:18:24,201 INFO u.Main [main] Supplier Interface
+2023-05-12 12:18:24,206 INFO u.Main [main] Consumer Interface
+2023-05-12 12:18:24,207 INFO u.Main [main] BiConsumer Interface
+2023-05-12 12:18:58,645 ERROR u.Main [main] Salary cannot be negative
+2023-05-12 12:18:58,680 INFO u.Main [main] Homecoming Announcement
+2023-05-12 12:18:58,689 INFO u.Main [main] Function Interface
+2023-05-12 12:18:58,690 INFO u.Main [main] Predicate Interface
+2023-05-12 12:18:58,690 INFO u.Main [main] Supplier Interface
+2023-05-12 12:18:58,695 INFO u.Main [main] Consumer Interface
+2023-05-12 12:18:58,695 INFO u.Main [main] BiConsumer Interface
+2023-05-12 12:19:48,612 ERROR u.Main [main] Salary cannot be negative
+2023-05-12 12:19:48,648 INFO u.Main [main] Homecoming Announcement
+2023-05-12 12:19:48,658 INFO u.Main [main] Function Interface
+2023-05-12 12:19:48,659 INFO u.Main [main] Predicate Interface
+2023-05-12 12:19:48,659 INFO u.Main [main] Supplier Interface
+2023-05-12 12:19:48,665 INFO u.Main [main] Consumer Interface
+2023-05-12 12:19:48,666 INFO u.Main [main] BiConsumer Interface
+2023-05-13 10:19:03,706 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 10:19:03,739 INFO u.Main [main] Homecoming Announcement
+2023-05-13 10:19:03,754 INFO u.Main [main] Function Interface
+2023-05-13 10:19:03,755 INFO u.Main [main] Predicate Interface
+2023-05-13 10:19:03,755 INFO u.Main [main] Supplier Interface
+2023-05-13 10:19:03,760 INFO u.Main [main] Consumer Interface
+2023-05-13 10:19:03,761 INFO u.Main [main] BiConsumer Interface
+2023-05-13 10:19:24,380 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 10:19:24,409 INFO u.Main [main] Homecoming Announcement
+2023-05-13 10:19:24,418 INFO u.Main [main] Function Interface
+2023-05-13 10:19:24,419 INFO u.Main [main] Predicate Interface
+2023-05-13 10:19:24,419 INFO u.Main [main] Supplier Interface
+2023-05-13 10:19:24,425 INFO u.Main [main] Consumer Interface
+2023-05-13 10:19:24,426 INFO u.Main [main] BiConsumer Interface
+2023-05-13 10:20:32,494 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 10:20:32,528 INFO u.Main [main] Homecoming Announcement
+2023-05-13 10:20:32,536 INFO u.Main [main] Function Interface
+2023-05-13 10:20:32,537 INFO u.Main [main] Predicate Interface
+2023-05-13 10:20:32,537 INFO u.Main [main] Supplier Interface
+2023-05-13 10:20:32,542 INFO u.Main [main] Consumer Interface
+2023-05-13 10:20:32,542 INFO u.Main [main] BiConsumer Interface
+2023-05-13 10:20:54,865 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 10:20:54,897 INFO u.Main [main] Homecoming Announcement
+2023-05-13 10:20:54,906 INFO u.Main [main] Function Interface
+2023-05-13 10:20:54,906 INFO u.Main [main] Predicate Interface
+2023-05-13 10:20:54,906 INFO u.Main [main] Supplier Interface
+2023-05-13 10:20:54,911 INFO u.Main [main] Consumer Interface
+2023-05-13 10:20:54,912 INFO u.Main [main] BiConsumer Interface
+2023-05-13 10:21:18,711 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 10:21:18,743 INFO u.Main [main] Homecoming Announcement
+2023-05-13 10:21:18,752 INFO u.Main [main] Function Interface
+2023-05-13 10:21:18,752 INFO u.Main [main] Predicate Interface
+2023-05-13 10:21:18,753 INFO u.Main [main] Supplier Interface
+2023-05-13 10:21:18,757 INFO u.Main [main] Consumer Interface
+2023-05-13 10:21:18,758 INFO u.Main [main] BiConsumer Interface
+2023-05-13 10:21:34,994 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 10:21:35,027 INFO u.Main [main] Homecoming Announcement
+2023-05-13 10:21:35,036 INFO u.Main [main] Function Interface
+2023-05-13 10:21:35,037 INFO u.Main [main] Predicate Interface
+2023-05-13 10:21:35,037 INFO u.Main [main] Supplier Interface
+2023-05-13 10:21:35,042 INFO u.Main [main] Consumer Interface
+2023-05-13 10:21:35,042 INFO u.Main [main] BiConsumer Interface
+2023-05-13 10:21:40,951 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 10:21:40,983 INFO u.Main [main] Homecoming Announcement
+2023-05-13 10:21:40,991 INFO u.Main [main] Function Interface
+2023-05-13 10:21:40,992 INFO u.Main [main] Predicate Interface
+2023-05-13 10:21:40,992 INFO u.Main [main] Supplier Interface
+2023-05-13 10:21:40,997 INFO u.Main [main] Consumer Interface
+2023-05-13 10:21:40,997 INFO u.Main [main] BiConsumer Interface
+2023-05-13 10:21:49,472 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 10:21:49,504 INFO u.Main [main] Homecoming Announcement
+2023-05-13 10:21:49,512 INFO u.Main [main] Function Interface
+2023-05-13 10:21:49,513 INFO u.Main [main] Predicate Interface
+2023-05-13 10:21:49,513 INFO u.Main [main] Supplier Interface
+2023-05-13 10:21:49,518 INFO u.Main [main] Consumer Interface
+2023-05-13 10:21:49,518 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:00:39,957 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:00:39,994 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:00:40,008 INFO u.Main [main] Function Interface
+2023-05-13 11:00:40,008 INFO u.Main [main] Predicate Interface
+2023-05-13 11:00:40,008 INFO u.Main [main] Supplier Interface
+2023-05-13 11:00:40,014 INFO u.Main [main] Consumer Interface
+2023-05-13 11:00:40,014 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:01:41,331 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:01:41,363 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:01:41,371 INFO u.Main [main] Function Interface
+2023-05-13 11:01:41,372 INFO u.Main [main] Predicate Interface
+2023-05-13 11:01:41,372 INFO u.Main [main] Supplier Interface
+2023-05-13 11:01:41,377 INFO u.Main [main] Consumer Interface
+2023-05-13 11:01:41,377 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:02:03,001 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:02:03,032 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:02:03,041 INFO u.Main [main] Function Interface
+2023-05-13 11:02:03,041 INFO u.Main [main] Predicate Interface
+2023-05-13 11:02:03,042 INFO u.Main [main] Supplier Interface
+2023-05-13 11:02:03,046 INFO u.Main [main] Consumer Interface
+2023-05-13 11:02:03,047 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:03:09,450 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:03:09,483 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:03:09,492 INFO u.Main [main] Function Interface
+2023-05-13 11:03:09,492 INFO u.Main [main] Predicate Interface
+2023-05-13 11:03:09,493 INFO u.Main [main] Supplier Interface
+2023-05-13 11:03:09,498 INFO u.Main [main] Consumer Interface
+2023-05-13 11:03:09,498 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:03:42,152 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:03:42,187 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:03:42,195 INFO u.Main [main] Function Interface
+2023-05-13 11:03:42,196 INFO u.Main [main] Predicate Interface
+2023-05-13 11:03:42,196 INFO u.Main [main] Supplier Interface
+2023-05-13 11:03:42,202 INFO u.Main [main] Consumer Interface
+2023-05-13 11:03:42,202 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:04:47,052 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:04:47,084 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:04:47,096 INFO u.Main [main] Function Interface
+2023-05-13 11:04:47,096 INFO u.Main [main] Predicate Interface
+2023-05-13 11:04:47,096 INFO u.Main [main] Supplier Interface
+2023-05-13 11:04:47,101 INFO u.Main [main] Consumer Interface
+2023-05-13 11:04:47,102 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:06:16,592 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:06:16,625 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:06:16,633 INFO u.Main [main] Function Interface
+2023-05-13 11:06:16,634 INFO u.Main [main] Predicate Interface
+2023-05-13 11:06:16,634 INFO u.Main [main] Supplier Interface
+2023-05-13 11:06:16,639 INFO u.Main [main] Consumer Interface
+2023-05-13 11:06:16,640 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:18:22,990 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:18:23,022 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:18:23,031 INFO u.Main [main] Function Interface
+2023-05-13 11:18:23,031 INFO u.Main [main] Predicate Interface
+2023-05-13 11:18:23,032 INFO u.Main [main] Supplier Interface
+2023-05-13 11:18:23,036 INFO u.Main [main] Consumer Interface
+2023-05-13 11:18:23,037 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:18:48,746 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:18:48,777 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:18:48,786 INFO u.Main [main] Function Interface
+2023-05-13 11:18:48,786 INFO u.Main [main] Predicate Interface
+2023-05-13 11:18:48,786 INFO u.Main [main] Supplier Interface
+2023-05-13 11:18:48,791 INFO u.Main [main] Consumer Interface
+2023-05-13 11:18:48,792 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:37:53,118 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:37:53,155 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:37:53,164 INFO u.Main [main] Function Interface
+2023-05-13 11:37:53,164 INFO u.Main [main] Predicate Interface
+2023-05-13 11:37:53,164 INFO u.Main [main] Supplier Interface
+2023-05-13 11:37:53,170 INFO u.Main [main] Consumer Interface
+2023-05-13 11:37:53,171 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:38:13,623 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:38:13,662 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:38:13,672 INFO u.Main [main] Function Interface
+2023-05-13 11:38:13,672 INFO u.Main [main] Predicate Interface
+2023-05-13 11:38:13,673 INFO u.Main [main] Supplier Interface
+2023-05-13 11:38:13,678 INFO u.Main [main] Consumer Interface
+2023-05-13 11:38:13,678 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:38:52,356 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:38:52,391 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:38:52,399 INFO u.Main [main] Function Interface
+2023-05-13 11:38:52,399 INFO u.Main [main] Predicate Interface
+2023-05-13 11:38:52,400 INFO u.Main [main] Supplier Interface
+2023-05-13 11:38:52,405 INFO u.Main [main] Consumer Interface
+2023-05-13 11:38:52,405 INFO u.Main [main] BiConsumer Interface
+2023-05-13 11:49:45,030 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 11:49:45,065 INFO u.Main [main] Homecoming Announcement
+2023-05-13 11:49:45,073 INFO u.Main [main] Function Interface
+2023-05-13 11:49:45,074 INFO u.Main [main] Predicate Interface
+2023-05-13 11:49:45,074 INFO u.Main [main] Supplier Interface
+2023-05-13 11:49:45,079 INFO u.Main [main] Consumer Interface
+2023-05-13 11:49:45,080 INFO u.Main [main] BiConsumer Interface
+2023-05-13 12:05:13,453 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 12:05:13,485 INFO u.Main [main] Homecoming Announcement
+2023-05-13 12:05:13,493 INFO u.Main [main] Function Interface
+2023-05-13 12:05:13,493 INFO u.Main [main] Predicate Interface
+2023-05-13 12:05:13,493 INFO u.Main [main] Supplier Interface
+2023-05-13 12:05:13,498 INFO u.Main [main] Consumer Interface
+2023-05-13 12:05:13,499 INFO u.Main [main] BiConsumer Interface
+2023-05-13 12:07:49,097 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 12:07:49,132 INFO u.Main [main] Homecoming Announcement
+2023-05-13 12:07:49,141 INFO u.Main [main] Function Interface
+2023-05-13 12:07:49,142 INFO u.Main [main] Predicate Interface
+2023-05-13 12:07:49,142 INFO u.Main [main] Supplier Interface
+2023-05-13 12:07:49,147 INFO u.Main [main] Consumer Interface
+2023-05-13 12:07:49,148 INFO u.Main [main] BiConsumer Interface
+2023-05-13 12:08:41,115 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 12:08:41,147 INFO u.Main [main] Homecoming Announcement
+2023-05-13 12:08:41,156 INFO u.Main [main] Function Interface
+2023-05-13 12:08:41,157 INFO u.Main [main] Predicate Interface
+2023-05-13 12:08:41,157 INFO u.Main [main] Supplier Interface
+2023-05-13 12:08:41,162 INFO u.Main [main] Consumer Interface
+2023-05-13 12:08:41,162 INFO u.Main [main] BiConsumer Interface
+2023-05-13 12:14:15,728 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 12:14:15,761 INFO u.Main [main] Homecoming Announcement
+2023-05-13 12:14:15,769 INFO u.Main [main] Function Interface
+2023-05-13 12:14:15,770 INFO u.Main [main] Predicate Interface
+2023-05-13 12:14:15,770 INFO u.Main [main] Supplier Interface
+2023-05-13 12:14:15,775 INFO u.Main [main] Consumer Interface
+2023-05-13 12:14:15,775 INFO u.Main [main] BiConsumer Interface
+2023-05-13 12:17:51,719 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 12:17:51,751 INFO u.Main [main] Homecoming Announcement
+2023-05-13 12:17:51,759 INFO u.Main [main] Function Interface
+2023-05-13 12:17:51,759 INFO u.Main [main] Predicate Interface
+2023-05-13 12:17:51,760 INFO u.Main [main] Supplier Interface
+2023-05-13 12:17:51,765 INFO u.Main [main] Consumer Interface
+2023-05-13 12:17:51,765 INFO u.Main [main] BiConsumer Interface
+2023-05-13 12:55:19,374 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 12:55:19,408 INFO u.Main [main] Homecoming Announcement
+2023-05-13 12:55:19,417 INFO u.Main [main] Function Interface
+2023-05-13 12:55:19,418 INFO u.Main [main] Predicate Interface
+2023-05-13 12:55:19,418 INFO u.Main [main] Supplier Interface
+2023-05-13 12:55:19,423 INFO u.Main [main] Consumer Interface
+2023-05-13 12:55:19,423 INFO u.Main [main] BiConsumer Interface
+2023-05-13 13:26:10,495 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 13:26:10,533 INFO u.Main [main] Homecoming Announcement
+2023-05-13 13:26:10,548 INFO u.Main [main] Function Interface
+2023-05-13 13:26:10,549 INFO u.Main [main] Predicate Interface
+2023-05-13 13:26:10,549 INFO u.Main [main] Supplier Interface
+2023-05-13 13:26:10,557 INFO u.Main [main] Consumer Interface
+2023-05-13 13:26:10,557 INFO u.Main [main] BiConsumer Interface
+2023-05-13 13:27:54,238 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 13:27:54,272 INFO u.Main [main] Homecoming Announcement
+2023-05-13 13:27:54,280 INFO u.Main [main] Function Interface
+2023-05-13 13:27:54,281 INFO u.Main [main] Predicate Interface
+2023-05-13 13:27:54,281 INFO u.Main [main] Supplier Interface
+2023-05-13 13:27:54,286 INFO u.Main [main] Consumer Interface
+2023-05-13 13:27:54,287 INFO u.Main [main] BiConsumer Interface
+2023-05-13 13:28:05,913 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 13:28:05,945 INFO u.Main [main] Homecoming Announcement
+2023-05-13 13:28:05,953 INFO u.Main [main] Function Interface
+2023-05-13 13:28:05,953 INFO u.Main [main] Predicate Interface
+2023-05-13 13:28:05,954 INFO u.Main [main] Supplier Interface
+2023-05-13 13:28:05,958 INFO u.Main [main] Consumer Interface
+2023-05-13 13:28:05,958 INFO u.Main [main] BiConsumer Interface
+2023-05-13 13:28:20,388 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 13:28:20,421 INFO u.Main [main] Homecoming Announcement
+2023-05-13 13:28:20,429 INFO u.Main [main] Function Interface
+2023-05-13 13:28:20,430 INFO u.Main [main] Predicate Interface
+2023-05-13 13:28:20,430 INFO u.Main [main] Supplier Interface
+2023-05-13 13:28:20,435 INFO u.Main [main] Consumer Interface
+2023-05-13 13:28:20,435 INFO u.Main [main] BiConsumer Interface
+2023-05-13 13:28:46,258 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 13:28:46,289 INFO u.Main [main] Homecoming Announcement
+2023-05-13 13:28:46,297 INFO u.Main [main] Function Interface
+2023-05-13 13:28:46,298 INFO u.Main [main] Predicate Interface
+2023-05-13 13:28:46,298 INFO u.Main [main] Supplier Interface
+2023-05-13 13:28:46,303 INFO u.Main [main] Consumer Interface
+2023-05-13 13:28:46,304 INFO u.Main [main] BiConsumer Interface
+2023-05-13 13:29:21,089 ERROR u.Main [main] Salary cannot be negative
+2023-05-13 13:29:21,125 INFO u.Main [main] Homecoming Announcement
+2023-05-13 13:29:21,135 INFO u.Main [main] Function Interface
+2023-05-13 13:29:21,135 INFO u.Main [main] Predicate Interface
+2023-05-13 13:29:21,136 INFO u.Main [main] Supplier Interface
+2023-05-13 13:29:21,142 INFO u.Main [main] Consumer Interface
+2023-05-13 13:29:21,142 INFO u.Main [main] BiConsumer Interface
+2023-05-14 08:35:02,269 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 08:35:02,308 INFO u.Main [main] Homecoming Announcement
+2023-05-14 08:35:02,326 INFO u.Main [main] Function Interface
+2023-05-14 08:35:02,326 INFO u.Main [main] Predicate Interface
+2023-05-14 08:35:02,326 INFO u.Main [main] Supplier Interface
+2023-05-14 08:35:02,332 INFO u.Main [main] Consumer Interface
+2023-05-14 08:35:02,332 INFO u.Main [main] BiConsumer Interface
+2023-05-14 08:35:59,013 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 08:35:59,045 INFO u.Main [main] Homecoming Announcement
+2023-05-14 08:35:59,053 INFO u.Main [main] Function Interface
+2023-05-14 08:35:59,053 INFO u.Main [main] Predicate Interface
+2023-05-14 08:35:59,054 INFO u.Main [main] Supplier Interface
+2023-05-14 08:35:59,058 INFO u.Main [main] Consumer Interface
+2023-05-14 08:35:59,059 INFO u.Main [main] BiConsumer Interface
+2023-05-14 08:36:50,387 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 08:36:50,422 INFO u.Main [main] Homecoming Announcement
+2023-05-14 08:36:50,432 INFO u.Main [main] Function Interface
+2023-05-14 08:36:50,432 INFO u.Main [main] Predicate Interface
+2023-05-14 08:36:50,432 INFO u.Main [main] Supplier Interface
+2023-05-14 08:36:50,437 INFO u.Main [main] Consumer Interface
+2023-05-14 08:36:50,438 INFO u.Main [main] BiConsumer Interface
+2023-05-14 08:55:10,425 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 08:55:10,456 INFO u.Main [main] Homecoming Announcement
+2023-05-14 08:55:10,465 INFO u.Main [main] Function Interface
+2023-05-14 08:55:10,465 INFO u.Main [main] Predicate Interface
+2023-05-14 08:55:10,466 INFO u.Main [main] Supplier Interface
+2023-05-14 08:55:10,470 INFO u.Main [main] Consumer Interface
+2023-05-14 08:55:10,471 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:02:09,645 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:02:09,680 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:02:09,691 INFO u.Main [main] Function Interface
+2023-05-14 09:02:09,692 INFO u.Main [main] Predicate Interface
+2023-05-14 09:02:09,692 INFO u.Main [main] Supplier Interface
+2023-05-14 09:02:09,699 INFO u.Main [main] Consumer Interface
+2023-05-14 09:02:09,699 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:02:35,832 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:02:35,868 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:02:35,877 INFO u.Main [main] Function Interface
+2023-05-14 09:02:35,878 INFO u.Main [main] Predicate Interface
+2023-05-14 09:02:35,878 INFO u.Main [main] Supplier Interface
+2023-05-14 09:02:35,883 INFO u.Main [main] Consumer Interface
+2023-05-14 09:02:35,883 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:13:18,797 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:13:18,829 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:13:18,837 INFO u.Main [main] Function Interface
+2023-05-14 09:13:18,838 INFO u.Main [main] Predicate Interface
+2023-05-14 09:13:18,838 INFO u.Main [main] Supplier Interface
+2023-05-14 09:13:18,843 INFO u.Main [main] Consumer Interface
+2023-05-14 09:13:18,843 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:17:00,292 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:17:00,325 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:17:00,334 INFO u.Main [main] Function Interface
+2023-05-14 09:17:00,334 INFO u.Main [main] Predicate Interface
+2023-05-14 09:17:00,334 INFO u.Main [main] Supplier Interface
+2023-05-14 09:17:00,340 INFO u.Main [main] Consumer Interface
+2023-05-14 09:17:00,340 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:19:13,893 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:19:13,925 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:19:13,933 INFO u.Main [main] Function Interface
+2023-05-14 09:19:13,934 INFO u.Main [main] Predicate Interface
+2023-05-14 09:19:13,934 INFO u.Main [main] Supplier Interface
+2023-05-14 09:19:13,939 INFO u.Main [main] Consumer Interface
+2023-05-14 09:19:13,939 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:22:30,587 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:22:30,620 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:22:30,628 INFO u.Main [main] Function Interface
+2023-05-14 09:22:30,628 INFO u.Main [main] Predicate Interface
+2023-05-14 09:22:30,629 INFO u.Main [main] Supplier Interface
+2023-05-14 09:22:30,633 INFO u.Main [main] Consumer Interface
+2023-05-14 09:22:30,633 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:22:39,691 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:22:39,723 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:22:39,732 INFO u.Main [main] Function Interface
+2023-05-14 09:22:39,732 INFO u.Main [main] Predicate Interface
+2023-05-14 09:22:39,732 INFO u.Main [main] Supplier Interface
+2023-05-14 09:22:39,737 INFO u.Main [main] Consumer Interface
+2023-05-14 09:22:39,737 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:31:47,099 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:31:47,132 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:31:47,140 INFO u.Main [main] Function Interface
+2023-05-14 09:31:47,140 INFO u.Main [main] Predicate Interface
+2023-05-14 09:31:47,140 INFO u.Main [main] Supplier Interface
+2023-05-14 09:31:47,145 INFO u.Main [main] Consumer Interface
+2023-05-14 09:31:47,146 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:35:04,955 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:35:04,987 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:35:04,995 INFO u.Main [main] Function Interface
+2023-05-14 09:35:04,996 INFO u.Main [main] Predicate Interface
+2023-05-14 09:35:04,996 INFO u.Main [main] Supplier Interface
+2023-05-14 09:35:05,001 INFO u.Main [main] Consumer Interface
+2023-05-14 09:35:05,001 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:35:34,365 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:35:34,396 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:35:34,405 INFO u.Main [main] Function Interface
+2023-05-14 09:35:34,405 INFO u.Main [main] Predicate Interface
+2023-05-14 09:35:34,405 INFO u.Main [main] Supplier Interface
+2023-05-14 09:35:34,410 INFO u.Main [main] Consumer Interface
+2023-05-14 09:35:34,411 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:36:33,925 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:36:33,958 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:36:33,967 INFO u.Main [main] Function Interface
+2023-05-14 09:36:33,968 INFO u.Main [main] Predicate Interface
+2023-05-14 09:36:33,968 INFO u.Main [main] Supplier Interface
+2023-05-14 09:36:33,973 INFO u.Main [main] Consumer Interface
+2023-05-14 09:36:33,974 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:37:03,134 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:37:03,166 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:37:03,174 INFO u.Main [main] Function Interface
+2023-05-14 09:37:03,175 INFO u.Main [main] Predicate Interface
+2023-05-14 09:37:03,175 INFO u.Main [main] Supplier Interface
+2023-05-14 09:37:03,180 INFO u.Main [main] Consumer Interface
+2023-05-14 09:37:03,180 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:37:11,351 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:37:11,384 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:37:11,393 INFO u.Main [main] Function Interface
+2023-05-14 09:37:11,393 INFO u.Main [main] Predicate Interface
+2023-05-14 09:37:11,394 INFO u.Main [main] Supplier Interface
+2023-05-14 09:37:11,399 INFO u.Main [main] Consumer Interface
+2023-05-14 09:37:11,399 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:37:41,569 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:37:41,605 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:37:41,614 INFO u.Main [main] Function Interface
+2023-05-14 09:37:41,614 INFO u.Main [main] Predicate Interface
+2023-05-14 09:37:41,615 INFO u.Main [main] Supplier Interface
+2023-05-14 09:37:41,620 INFO u.Main [main] Consumer Interface
+2023-05-14 09:37:41,620 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:37:47,549 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:37:47,582 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:37:47,591 INFO u.Main [main] Function Interface
+2023-05-14 09:37:47,591 INFO u.Main [main] Predicate Interface
+2023-05-14 09:37:47,592 INFO u.Main [main] Supplier Interface
+2023-05-14 09:37:47,597 INFO u.Main [main] Consumer Interface
+2023-05-14 09:37:47,598 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:37:54,205 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:37:54,239 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:37:54,248 INFO u.Main [main] Function Interface
+2023-05-14 09:37:54,248 INFO u.Main [main] Predicate Interface
+2023-05-14 09:37:54,248 INFO u.Main [main] Supplier Interface
+2023-05-14 09:37:54,253 INFO u.Main [main] Consumer Interface
+2023-05-14 09:37:54,254 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:56:34,960 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:56:34,992 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:56:35,000 INFO u.Main [main] Function Interface
+2023-05-14 09:56:35,001 INFO u.Main [main] Predicate Interface
+2023-05-14 09:56:35,001 INFO u.Main [main] Supplier Interface
+2023-05-14 09:56:35,006 INFO u.Main [main] Consumer Interface
+2023-05-14 09:56:35,006 INFO u.Main [main] BiConsumer Interface
+2023-05-14 09:57:32,566 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 09:57:32,600 INFO u.Main [main] Homecoming Announcement
+2023-05-14 09:57:32,608 INFO u.Main [main] Function Interface
+2023-05-14 09:57:32,609 INFO u.Main [main] Predicate Interface
+2023-05-14 09:57:32,609 INFO u.Main [main] Supplier Interface
+2023-05-14 09:57:32,614 INFO u.Main [main] Consumer Interface
+2023-05-14 09:57:32,614 INFO u.Main [main] BiConsumer Interface
+2023-05-14 10:17:10,193 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 10:17:10,225 INFO u.Main [main] Homecoming Announcement
+2023-05-14 10:17:10,234 INFO u.Main [main] Function Interface
+2023-05-14 10:17:10,234 INFO u.Main [main] Predicate Interface
+2023-05-14 10:17:10,235 INFO u.Main [main] Supplier Interface
+2023-05-14 10:17:10,240 INFO u.Main [main] Consumer Interface
+2023-05-14 10:17:10,240 INFO u.Main [main] BiConsumer Interface
+2023-05-14 10:20:10,683 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 10:20:10,717 INFO u.Main [main] Homecoming Announcement
+2023-05-14 10:20:10,725 INFO u.Main [main] Function Interface
+2023-05-14 10:20:10,726 INFO u.Main [main] Predicate Interface
+2023-05-14 10:20:10,726 INFO u.Main [main] Supplier Interface
+2023-05-14 10:20:10,731 INFO u.Main [main] Consumer Interface
+2023-05-14 10:20:10,731 INFO u.Main [main] BiConsumer Interface
+2023-05-14 10:20:40,217 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 10:20:40,249 INFO u.Main [main] Homecoming Announcement
+2023-05-14 10:20:40,258 INFO u.Main [main] Function Interface
+2023-05-14 10:20:40,258 INFO u.Main [main] Predicate Interface
+2023-05-14 10:20:40,258 INFO u.Main [main] Supplier Interface
+2023-05-14 10:20:40,263 INFO u.Main [main] Consumer Interface
+2023-05-14 10:20:40,264 INFO u.Main [main] BiConsumer Interface
+2023-05-14 10:27:38,609 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 10:27:38,642 INFO u.Main [main] Homecoming Announcement
+2023-05-14 10:27:38,652 INFO u.Main [main] Function Interface
+2023-05-14 10:27:38,652 INFO u.Main [main] Predicate Interface
+2023-05-14 10:27:38,653 INFO u.Main [main] Supplier Interface
+2023-05-14 10:27:38,658 INFO u.Main [main] Consumer Interface
+2023-05-14 10:27:38,658 INFO u.Main [main] BiConsumer Interface
+2023-05-14 10:28:07,012 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 10:28:07,049 INFO u.Main [main] Homecoming Announcement
+2023-05-14 10:28:07,058 INFO u.Main [main] Function Interface
+2023-05-14 10:28:07,059 INFO u.Main [main] Predicate Interface
+2023-05-14 10:28:07,059 INFO u.Main [main] Supplier Interface
+2023-05-14 10:28:07,064 INFO u.Main [main] Consumer Interface
+2023-05-14 10:28:07,065 INFO u.Main [main] BiConsumer Interface
+2023-05-14 10:28:18,510 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 10:28:18,543 INFO u.Main [main] Homecoming Announcement
+2023-05-14 10:28:18,552 INFO u.Main [main] Function Interface
+2023-05-14 10:28:18,552 INFO u.Main [main] Predicate Interface
+2023-05-14 10:28:18,552 INFO u.Main [main] Supplier Interface
+2023-05-14 10:28:18,557 INFO u.Main [main] Consumer Interface
+2023-05-14 10:28:18,558 INFO u.Main [main] BiConsumer Interface
+2023-05-14 10:34:42,394 ERROR u.Main [main] Salary cannot be negative
+2023-05-14 10:34:42,426 INFO u.Main [main] Homecoming Announcement
+2023-05-14 10:34:42,435 INFO u.Main [main] Function Interface
+2023-05-14 10:34:42,435 INFO u.Main [main] Predicate Interface
+2023-05-14 10:34:42,435 INFO u.Main [main] Supplier Interface
+2023-05-14 10:34:42,440 INFO u.Main [main] Consumer Interface
+2023-05-14 10:34:42,440 INFO u.Main [main] BiConsumer Interface
+2023-05-15 07:00:41,147 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 07:00:41,241 INFO u.Main [main] Homecoming Announcement
+2023-05-15 07:00:41,262 INFO u.Main [main] Function Interface
+2023-05-15 07:00:41,262 INFO u.Main [main] Predicate Interface
+2023-05-15 07:00:41,263 INFO u.Main [main] Supplier Interface
+2023-05-15 07:00:41,267 INFO u.Main [main] Consumer Interface
+2023-05-15 07:00:41,268 INFO u.Main [main] BiConsumer Interface
+2023-05-15 07:12:18,263 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 07:12:18,298 INFO u.Main [main] Homecoming Announcement
+2023-05-15 07:12:18,309 INFO u.Main [main] Function Interface
+2023-05-15 07:12:18,310 INFO u.Main [main] Predicate Interface
+2023-05-15 07:12:18,310 INFO u.Main [main] Supplier Interface
+2023-05-15 07:12:18,315 INFO u.Main [main] Consumer Interface
+2023-05-15 07:12:18,316 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:37:47,881 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:37:47,914 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:37:47,922 INFO u.Main [main] Function Interface
+2023-05-15 08:37:47,923 INFO u.Main [main] Predicate Interface
+2023-05-15 08:37:47,923 INFO u.Main [main] Supplier Interface
+2023-05-15 08:37:47,928 INFO u.Main [main] Consumer Interface
+2023-05-15 08:37:47,928 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:38:15,249 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:38:15,288 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:38:15,297 INFO u.Main [main] Function Interface
+2023-05-15 08:38:15,297 INFO u.Main [main] Predicate Interface
+2023-05-15 08:38:15,297 INFO u.Main [main] Supplier Interface
+2023-05-15 08:38:15,303 INFO u.Main [main] Consumer Interface
+2023-05-15 08:38:15,304 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:42:04,869 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:42:04,901 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:42:04,909 INFO u.Main [main] Function Interface
+2023-05-15 08:42:04,910 INFO u.Main [main] Predicate Interface
+2023-05-15 08:42:04,910 INFO u.Main [main] Supplier Interface
+2023-05-15 08:42:04,915 INFO u.Main [main] Consumer Interface
+2023-05-15 08:42:04,916 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:42:28,769 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:42:28,802 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:42:28,810 INFO u.Main [main] Function Interface
+2023-05-15 08:42:28,811 INFO u.Main [main] Predicate Interface
+2023-05-15 08:42:28,811 INFO u.Main [main] Supplier Interface
+2023-05-15 08:42:28,816 INFO u.Main [main] Consumer Interface
+2023-05-15 08:42:28,816 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:43:12,232 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:43:12,265 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:43:12,274 INFO u.Main [main] Function Interface
+2023-05-15 08:43:12,274 INFO u.Main [main] Predicate Interface
+2023-05-15 08:43:12,274 INFO u.Main [main] Supplier Interface
+2023-05-15 08:43:12,280 INFO u.Main [main] Consumer Interface
+2023-05-15 08:43:12,280 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:44:01,253 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:44:01,286 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:44:01,294 INFO u.Main [main] Function Interface
+2023-05-15 08:44:01,295 INFO u.Main [main] Predicate Interface
+2023-05-15 08:44:01,295 INFO u.Main [main] Supplier Interface
+2023-05-15 08:44:01,300 INFO u.Main [main] Consumer Interface
+2023-05-15 08:44:01,300 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:45:33,368 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:45:33,401 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:45:33,410 INFO u.Main [main] Function Interface
+2023-05-15 08:45:33,410 INFO u.Main [main] Predicate Interface
+2023-05-15 08:45:33,410 INFO u.Main [main] Supplier Interface
+2023-05-15 08:45:33,415 INFO u.Main [main] Consumer Interface
+2023-05-15 08:45:33,415 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:45:42,685 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:45:42,720 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:45:42,729 INFO u.Main [main] Function Interface
+2023-05-15 08:45:42,729 INFO u.Main [main] Predicate Interface
+2023-05-15 08:45:42,729 INFO u.Main [main] Supplier Interface
+2023-05-15 08:45:42,735 INFO u.Main [main] Consumer Interface
+2023-05-15 08:45:42,735 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:46:11,067 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:46:11,100 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:46:11,109 INFO u.Main [main] Function Interface
+2023-05-15 08:46:11,110 INFO u.Main [main] Predicate Interface
+2023-05-15 08:46:11,110 INFO u.Main [main] Supplier Interface
+2023-05-15 08:46:11,115 INFO u.Main [main] Consumer Interface
+2023-05-15 08:46:11,116 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:46:29,151 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:46:29,183 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:46:29,192 INFO u.Main [main] Function Interface
+2023-05-15 08:46:29,192 INFO u.Main [main] Predicate Interface
+2023-05-15 08:46:29,193 INFO u.Main [main] Supplier Interface
+2023-05-15 08:46:29,198 INFO u.Main [main] Consumer Interface
+2023-05-15 08:46:29,198 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:47:29,906 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:47:29,954 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:47:29,969 INFO u.Main [main] Function Interface
+2023-05-15 08:47:29,969 INFO u.Main [main] Predicate Interface
+2023-05-15 08:47:29,970 INFO u.Main [main] Supplier Interface
+2023-05-15 08:47:29,977 INFO u.Main [main] Consumer Interface
+2023-05-15 08:47:29,977 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:47:31,420 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:47:31,454 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:47:31,463 INFO u.Main [main] Function Interface
+2023-05-15 08:47:31,464 INFO u.Main [main] Predicate Interface
+2023-05-15 08:47:31,464 INFO u.Main [main] Supplier Interface
+2023-05-15 08:47:31,469 INFO u.Main [main] Consumer Interface
+2023-05-15 08:47:31,469 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:48:02,492 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:48:02,524 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:48:02,532 INFO u.Main [main] Function Interface
+2023-05-15 08:48:02,533 INFO u.Main [main] Predicate Interface
+2023-05-15 08:48:02,533 INFO u.Main [main] Supplier Interface
+2023-05-15 08:48:02,538 INFO u.Main [main] Consumer Interface
+2023-05-15 08:48:02,538 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:51:48,842 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:51:48,874 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:51:48,882 INFO u.Main [main] Function Interface
+2023-05-15 08:51:48,883 INFO u.Main [main] Predicate Interface
+2023-05-15 08:51:48,883 INFO u.Main [main] Supplier Interface
+2023-05-15 08:51:48,888 INFO u.Main [main] Consumer Interface
+2023-05-15 08:51:48,888 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:53:01,201 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:53:01,236 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:53:01,245 INFO u.Main [main] Function Interface
+2023-05-15 08:53:01,245 INFO u.Main [main] Predicate Interface
+2023-05-15 08:53:01,245 INFO u.Main [main] Supplier Interface
+2023-05-15 08:53:01,250 INFO u.Main [main] Consumer Interface
+2023-05-15 08:53:01,251 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:53:25,536 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:53:25,568 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:53:25,578 INFO u.Main [main] Function Interface
+2023-05-15 08:53:25,578 INFO u.Main [main] Predicate Interface
+2023-05-15 08:53:25,579 INFO u.Main [main] Supplier Interface
+2023-05-15 08:53:25,583 INFO u.Main [main] Consumer Interface
+2023-05-15 08:53:25,584 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:54:55,697 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:54:55,739 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:54:55,750 INFO u.Main [main] Function Interface
+2023-05-15 08:54:55,751 INFO u.Main [main] Predicate Interface
+2023-05-15 08:54:55,751 INFO u.Main [main] Supplier Interface
+2023-05-15 08:54:55,756 INFO u.Main [main] Consumer Interface
+2023-05-15 08:54:55,757 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:55:59,523 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:55:59,558 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:55:59,570 INFO u.Main [main] Function Interface
+2023-05-15 08:55:59,571 INFO u.Main [main] Predicate Interface
+2023-05-15 08:55:59,571 INFO u.Main [main] Supplier Interface
+2023-05-15 08:55:59,577 INFO u.Main [main] Consumer Interface
+2023-05-15 08:55:59,577 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:56:11,672 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:56:11,705 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:56:11,713 INFO u.Main [main] Function Interface
+2023-05-15 08:56:11,713 INFO u.Main [main] Predicate Interface
+2023-05-15 08:56:11,714 INFO u.Main [main] Supplier Interface
+2023-05-15 08:56:11,718 INFO u.Main [main] Consumer Interface
+2023-05-15 08:56:11,719 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:57:22,311 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:57:22,343 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:57:22,352 INFO u.Main [main] Function Interface
+2023-05-15 08:57:22,353 INFO u.Main [main] Predicate Interface
+2023-05-15 08:57:22,353 INFO u.Main [main] Supplier Interface
+2023-05-15 08:57:22,358 INFO u.Main [main] Consumer Interface
+2023-05-15 08:57:22,358 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:57:57,357 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:57:57,390 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:57:57,399 INFO u.Main [main] Function Interface
+2023-05-15 08:57:57,400 INFO u.Main [main] Predicate Interface
+2023-05-15 08:57:57,400 INFO u.Main [main] Supplier Interface
+2023-05-15 08:57:57,405 INFO u.Main [main] Consumer Interface
+2023-05-15 08:57:57,406 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:58:05,314 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:58:05,346 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:58:05,354 INFO u.Main [main] Function Interface
+2023-05-15 08:58:05,355 INFO u.Main [main] Predicate Interface
+2023-05-15 08:58:05,355 INFO u.Main [main] Supplier Interface
+2023-05-15 08:58:05,360 INFO u.Main [main] Consumer Interface
+2023-05-15 08:58:05,360 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:59:22,694 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:59:22,724 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:59:22,733 INFO u.Main [main] Function Interface
+2023-05-15 08:59:22,733 INFO u.Main [main] Predicate Interface
+2023-05-15 08:59:22,733 INFO u.Main [main] Supplier Interface
+2023-05-15 08:59:22,738 INFO u.Main [main] Consumer Interface
+2023-05-15 08:59:22,738 INFO u.Main [main] BiConsumer Interface
+2023-05-15 08:59:45,799 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 08:59:45,831 INFO u.Main [main] Homecoming Announcement
+2023-05-15 08:59:45,839 INFO u.Main [main] Function Interface
+2023-05-15 08:59:45,840 INFO u.Main [main] Predicate Interface
+2023-05-15 08:59:45,840 INFO u.Main [main] Supplier Interface
+2023-05-15 08:59:45,845 INFO u.Main [main] Consumer Interface
+2023-05-15 08:59:45,845 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:00:10,365 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:00:10,397 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:00:10,406 INFO u.Main [main] Function Interface
+2023-05-15 09:00:10,407 INFO u.Main [main] Predicate Interface
+2023-05-15 09:00:10,407 INFO u.Main [main] Supplier Interface
+2023-05-15 09:00:10,412 INFO u.Main [main] Consumer Interface
+2023-05-15 09:00:10,412 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:09:13,065 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:09:13,099 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:09:13,108 INFO u.Main [main] Function Interface
+2023-05-15 09:09:13,109 INFO u.Main [main] Predicate Interface
+2023-05-15 09:09:13,109 INFO u.Main [main] Supplier Interface
+2023-05-15 09:09:13,114 INFO u.Main [main] Consumer Interface
+2023-05-15 09:09:13,115 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:11:14,114 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:11:14,148 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:11:14,156 INFO u.Main [main] Function Interface
+2023-05-15 09:11:14,157 INFO u.Main [main] Predicate Interface
+2023-05-15 09:11:14,157 INFO u.Main [main] Supplier Interface
+2023-05-15 09:11:14,163 INFO u.Main [main] Consumer Interface
+2023-05-15 09:11:14,163 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:11:31,832 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:11:31,863 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:11:31,872 INFO u.Main [main] Function Interface
+2023-05-15 09:11:31,872 INFO u.Main [main] Predicate Interface
+2023-05-15 09:11:31,873 INFO u.Main [main] Supplier Interface
+2023-05-15 09:11:31,877 INFO u.Main [main] Consumer Interface
+2023-05-15 09:11:31,878 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:12:39,028 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:12:39,062 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:12:39,071 INFO u.Main [main] Function Interface
+2023-05-15 09:12:39,072 INFO u.Main [main] Predicate Interface
+2023-05-15 09:12:39,072 INFO u.Main [main] Supplier Interface
+2023-05-15 09:12:39,077 INFO u.Main [main] Consumer Interface
+2023-05-15 09:12:39,077 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:12:47,136 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:12:47,171 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:12:47,180 INFO u.Main [main] Function Interface
+2023-05-15 09:12:47,181 INFO u.Main [main] Predicate Interface
+2023-05-15 09:12:47,181 INFO u.Main [main] Supplier Interface
+2023-05-15 09:12:47,186 INFO u.Main [main] Consumer Interface
+2023-05-15 09:12:47,187 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:17:41,549 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:17:41,581 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:17:41,590 INFO u.Main [main] Function Interface
+2023-05-15 09:17:41,590 INFO u.Main [main] Predicate Interface
+2023-05-15 09:17:41,591 INFO u.Main [main] Supplier Interface
+2023-05-15 09:17:41,595 INFO u.Main [main] Consumer Interface
+2023-05-15 09:17:41,596 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:17:51,328 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:17:51,365 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:17:51,373 INFO u.Main [main] Function Interface
+2023-05-15 09:17:51,374 INFO u.Main [main] Predicate Interface
+2023-05-15 09:17:51,374 INFO u.Main [main] Supplier Interface
+2023-05-15 09:17:51,379 INFO u.Main [main] Consumer Interface
+2023-05-15 09:17:51,379 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:18:56,877 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:18:56,909 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:18:56,918 INFO u.Main [main] Function Interface
+2023-05-15 09:18:56,919 INFO u.Main [main] Predicate Interface
+2023-05-15 09:18:56,919 INFO u.Main [main] Supplier Interface
+2023-05-15 09:18:56,924 INFO u.Main [main] Consumer Interface
+2023-05-15 09:18:56,925 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:19:20,082 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:19:20,117 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:19:20,126 INFO u.Main [main] Function Interface
+2023-05-15 09:19:20,127 INFO u.Main [main] Predicate Interface
+2023-05-15 09:19:20,127 INFO u.Main [main] Supplier Interface
+2023-05-15 09:19:20,132 INFO u.Main [main] Consumer Interface
+2023-05-15 09:19:20,132 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:22:14,692 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:22:14,727 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:22:14,735 INFO u.Main [main] Function Interface
+2023-05-15 09:22:14,736 INFO u.Main [main] Predicate Interface
+2023-05-15 09:22:14,736 INFO u.Main [main] Supplier Interface
+2023-05-15 09:22:14,741 INFO u.Main [main] Consumer Interface
+2023-05-15 09:22:14,742 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:22:21,834 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:22:21,868 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:22:21,877 INFO u.Main [main] Function Interface
+2023-05-15 09:22:21,878 INFO u.Main [main] Predicate Interface
+2023-05-15 09:22:21,878 INFO u.Main [main] Supplier Interface
+2023-05-15 09:22:21,883 INFO u.Main [main] Consumer Interface
+2023-05-15 09:22:21,884 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:23:28,867 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:23:28,902 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:23:28,912 INFO u.Main [main] Function Interface
+2023-05-15 09:23:28,912 INFO u.Main [main] Predicate Interface
+2023-05-15 09:23:28,913 INFO u.Main [main] Supplier Interface
+2023-05-15 09:23:28,918 INFO u.Main [main] Consumer Interface
+2023-05-15 09:23:28,919 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:23:33,915 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:23:33,949 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:23:33,958 INFO u.Main [main] Function Interface
+2023-05-15 09:23:33,958 INFO u.Main [main] Predicate Interface
+2023-05-15 09:23:33,958 INFO u.Main [main] Supplier Interface
+2023-05-15 09:23:33,963 INFO u.Main [main] Consumer Interface
+2023-05-15 09:23:33,964 INFO u.Main [main] BiConsumer Interface
+2023-05-15 09:26:00,318 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 09:26:00,354 INFO u.Main [main] Homecoming Announcement
+2023-05-15 09:26:00,363 INFO u.Main [main] Function Interface
+2023-05-15 09:26:00,363 INFO u.Main [main] Predicate Interface
+2023-05-15 09:26:00,363 INFO u.Main [main] Supplier Interface
+2023-05-15 09:26:00,369 INFO u.Main [main] Consumer Interface
+2023-05-15 09:26:00,369 INFO u.Main [main] BiConsumer Interface
+2023-05-15 10:44:37,894 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 10:44:37,926 INFO u.Main [main] Homecoming Announcement
+2023-05-15 10:44:37,938 INFO u.Main [main] Function Interface
+2023-05-15 10:44:37,938 INFO u.Main [main] Predicate Interface
+2023-05-15 10:44:37,939 INFO u.Main [main] Supplier Interface
+2023-05-15 10:44:37,944 INFO u.Main [main] Consumer Interface
+2023-05-15 10:44:37,944 INFO u.Main [main] BiConsumer Interface
+2023-05-15 10:46:35,920 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 10:46:35,952 INFO u.Main [main] Homecoming Announcement
+2023-05-15 10:46:35,961 INFO u.Main [main] Function Interface
+2023-05-15 10:46:35,961 INFO u.Main [main] Predicate Interface
+2023-05-15 10:46:35,961 INFO u.Main [main] Supplier Interface
+2023-05-15 10:46:35,966 INFO u.Main [main] Consumer Interface
+2023-05-15 10:46:35,967 INFO u.Main [main] BiConsumer Interface
+2023-05-15 10:47:17,699 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 10:47:17,734 INFO u.Main [main] Homecoming Announcement
+2023-05-15 10:47:17,742 INFO u.Main [main] Function Interface
+2023-05-15 10:47:17,742 INFO u.Main [main] Predicate Interface
+2023-05-15 10:47:17,743 INFO u.Main [main] Supplier Interface
+2023-05-15 10:47:17,748 INFO u.Main [main] Consumer Interface
+2023-05-15 10:47:17,748 INFO u.Main [main] BiConsumer Interface
+2023-05-15 10:47:28,880 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 10:47:28,913 INFO u.Main [main] Homecoming Announcement
+2023-05-15 10:47:28,922 INFO u.Main [main] Function Interface
+2023-05-15 10:47:28,922 INFO u.Main [main] Predicate Interface
+2023-05-15 10:47:28,923 INFO u.Main [main] Supplier Interface
+2023-05-15 10:47:28,928 INFO u.Main [main] Consumer Interface
+2023-05-15 10:47:28,928 INFO u.Main [main] BiConsumer Interface
+2023-05-15 10:47:36,969 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 10:47:37,005 INFO u.Main [main] Homecoming Announcement
+2023-05-15 10:47:37,013 INFO u.Main [main] Function Interface
+2023-05-15 10:47:37,014 INFO u.Main [main] Predicate Interface
+2023-05-15 10:47:37,014 INFO u.Main [main] Supplier Interface
+2023-05-15 10:47:37,020 INFO u.Main [main] Consumer Interface
+2023-05-15 10:47:37,020 INFO u.Main [main] BiConsumer Interface
+2023-05-15 10:54:34,337 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 10:54:34,375 INFO u.Main [main] Homecoming Announcement
+2023-05-15 10:54:34,385 INFO u.Main [main] Function Interface
+2023-05-15 10:54:34,385 INFO u.Main [main] Predicate Interface
+2023-05-15 10:54:34,385 INFO u.Main [main] Supplier Interface
+2023-05-15 10:54:34,391 INFO u.Main [main] Consumer Interface
+2023-05-15 10:54:34,391 INFO u.Main [main] BiConsumer Interface
+2023-05-15 10:58:43,067 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 10:58:43,102 INFO u.Main [main] Homecoming Announcement
+2023-05-15 10:58:43,113 INFO u.Main [main] Function Interface
+2023-05-15 10:58:43,113 INFO u.Main [main] Predicate Interface
+2023-05-15 10:58:43,114 INFO u.Main [main] Supplier Interface
+2023-05-15 10:58:43,119 INFO u.Main [main] Consumer Interface
+2023-05-15 10:58:43,120 INFO u.Main [main] BiConsumer Interface
+2023-05-15 10:59:03,945 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 10:59:03,980 INFO u.Main [main] Homecoming Announcement
+2023-05-15 10:59:03,988 INFO u.Main [main] Function Interface
+2023-05-15 10:59:03,989 INFO u.Main [main] Predicate Interface
+2023-05-15 10:59:03,989 INFO u.Main [main] Supplier Interface
+2023-05-15 10:59:03,994 INFO u.Main [main] Consumer Interface
+2023-05-15 10:59:03,994 INFO u.Main [main] BiConsumer Interface
+2023-05-15 10:59:55,650 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 10:59:55,685 INFO u.Main [main] Homecoming Announcement
+2023-05-15 10:59:55,694 INFO u.Main [main] Function Interface
+2023-05-15 10:59:55,695 INFO u.Main [main] Predicate Interface
+2023-05-15 10:59:55,695 INFO u.Main [main] Supplier Interface
+2023-05-15 10:59:55,702 INFO u.Main [main] Consumer Interface
+2023-05-15 10:59:55,703 INFO u.Main [main] BiConsumer Interface
+2023-05-15 11:02:34,204 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 11:02:34,236 INFO u.Main [main] Homecoming Announcement
+2023-05-15 11:02:34,244 INFO u.Main [main] Function Interface
+2023-05-15 11:02:34,244 INFO u.Main [main] Predicate Interface
+2023-05-15 11:02:34,245 INFO u.Main [main] Supplier Interface
+2023-05-15 11:02:34,249 INFO u.Main [main] Consumer Interface
+2023-05-15 11:02:34,250 INFO u.Main [main] BiConsumer Interface
+2023-05-15 11:05:22,372 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 11:05:22,406 INFO u.Main [main] Homecoming Announcement
+2023-05-15 11:05:22,414 INFO u.Main [main] Function Interface
+2023-05-15 11:05:22,414 INFO u.Main [main] Predicate Interface
+2023-05-15 11:05:22,415 INFO u.Main [main] Supplier Interface
+2023-05-15 11:05:22,420 INFO u.Main [main] Consumer Interface
+2023-05-15 11:05:22,420 INFO u.Main [main] BiConsumer Interface
+2023-05-15 11:05:45,287 ERROR u.Main [main] Salary cannot be negative
+2023-05-15 11:05:45,321 INFO u.Main [main] Homecoming Announcement
+2023-05-15 11:05:45,328 INFO u.Main [main] Function Interface
+2023-05-15 11:05:45,329 INFO u.Main [main] Predicate Interface
+2023-05-15 11:05:45,329 INFO u.Main [main] Supplier Interface
+2023-05-15 11:05:45,334 INFO u.Main [main] Consumer Interface
+2023-05-15 11:05:45,334 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:30:03,328 ERROR u.Main [main] Salary cannot be negative
+2023-05-16 07:30:03,366 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:30:03,383 INFO u.Main [main] Function Interface
+2023-05-16 07:30:03,383 INFO u.Main [main] Predicate Interface
+2023-05-16 07:30:03,383 INFO u.Main [main] Supplier Interface
+2023-05-16 07:30:03,389 INFO u.Main [main] Consumer Interface
+2023-05-16 07:30:03,389 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:31:21,103 ERROR u.Main [main] Salary cannot be negative
+2023-05-16 07:31:21,138 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:31:21,147 INFO u.Main [main] Function Interface
+2023-05-16 07:31:21,147 INFO u.Main [main] Predicate Interface
+2023-05-16 07:31:21,148 INFO u.Main [main] Supplier Interface
+2023-05-16 07:31:21,153 INFO u.Main [main] Consumer Interface
+2023-05-16 07:31:21,154 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:31:52,826 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:31:52,841 INFO u.Main [main] Function Interface
+2023-05-16 07:31:52,842 INFO u.Main [main] Predicate Interface
+2023-05-16 07:31:52,843 INFO u.Main [main] Supplier Interface
+2023-05-16 07:31:52,852 INFO u.Main [main] Consumer Interface
+2023-05-16 07:31:52,852 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:35:27,804 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:35:27,818 INFO u.Main [main] Function Interface
+2023-05-16 07:35:27,819 INFO u.Main [main] Predicate Interface
+2023-05-16 07:35:27,820 INFO u.Main [main] Supplier Interface
+2023-05-16 07:35:27,827 INFO u.Main [main] Consumer Interface
+2023-05-16 07:35:27,827 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:37:04,455 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:37:04,469 INFO u.Main [main] Function Interface
+2023-05-16 07:37:04,469 INFO u.Main [main] Predicate Interface
+2023-05-16 07:37:04,470 INFO u.Main [main] Supplier Interface
+2023-05-16 07:37:04,479 INFO u.Main [main] Consumer Interface
+2023-05-16 07:37:04,479 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:37:13,604 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:37:13,620 INFO u.Main [main] Function Interface
+2023-05-16 07:37:13,621 INFO u.Main [main] Predicate Interface
+2023-05-16 07:37:13,622 INFO u.Main [main] Supplier Interface
+2023-05-16 07:37:13,631 INFO u.Main [main] Consumer Interface
+2023-05-16 07:37:13,631 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:37:44,580 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:37:44,595 INFO u.Main [main] Function Interface
+2023-05-16 07:37:44,596 INFO u.Main [main] Predicate Interface
+2023-05-16 07:37:44,597 INFO u.Main [main] Supplier Interface
+2023-05-16 07:37:44,604 INFO u.Main [main] Consumer Interface
+2023-05-16 07:37:44,605 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:37:56,017 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:37:56,032 INFO u.Main [main] Function Interface
+2023-05-16 07:37:56,032 INFO u.Main [main] Predicate Interface
+2023-05-16 07:37:56,033 INFO u.Main [main] Supplier Interface
+2023-05-16 07:37:56,041 INFO u.Main [main] Consumer Interface
+2023-05-16 07:37:56,042 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:38:26,909 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:38:26,923 INFO u.Main [main] Function Interface
+2023-05-16 07:38:26,924 INFO u.Main [main] Predicate Interface
+2023-05-16 07:38:40,113 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:38:40,131 INFO u.Main [main] Function Interface
+2023-05-16 07:38:40,132 INFO u.Main [main] Predicate Interface
+2023-05-16 07:38:40,133 INFO u.Main [main] Supplier Interface
+2023-05-16 07:38:40,141 INFO u.Main [main] Consumer Interface
+2023-05-16 07:38:40,141 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:39:34,541 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:39:34,555 INFO u.Main [main] Function Interface
+2023-05-16 07:39:34,556 INFO u.Main [main] Predicate Interface
+2023-05-16 07:39:56,727 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:39:56,743 INFO u.Main [main] Function Interface
+2023-05-16 07:39:56,744 INFO u.Main [main] Predicate Interface
+2023-05-16 07:39:56,745 INFO u.Main [main] Supplier Interface
+2023-05-16 07:39:56,754 INFO u.Main [main] Consumer Interface
+2023-05-16 07:39:56,754 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:40:12,659 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:40:12,676 INFO u.Main [main] Function Interface
+2023-05-16 07:40:12,677 INFO u.Main [main] Predicate Interface
+2023-05-16 07:40:12,679 INFO u.Main [main] Supplier Interface
+2023-05-16 07:40:12,688 INFO u.Main [main] Consumer Interface
+2023-05-16 07:40:12,689 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:40:23,572 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:40:23,588 INFO u.Main [main] Function Interface
+2023-05-16 07:40:23,588 INFO u.Main [main] Predicate Interface
+2023-05-16 07:40:31,552 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:40:31,567 INFO u.Main [main] Function Interface
+2023-05-16 07:40:31,568 INFO u.Main [main] Predicate Interface
+2023-05-16 07:40:31,569 INFO u.Main [main] Supplier Interface
+2023-05-16 07:40:31,578 INFO u.Main [main] Consumer Interface
+2023-05-16 07:40:31,578 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:44:36,597 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:44:36,610 INFO u.Main [main] Function Interface
+2023-05-16 07:44:36,611 INFO u.Main [main] Predicate Interface
+2023-05-16 07:44:36,612 INFO u.Main [main] Supplier Interface
+2023-05-16 07:44:36,620 INFO u.Main [main] Consumer Interface
+2023-05-16 07:44:36,621 INFO u.Main [main] BiConsumer Interface
+2023-05-16 07:45:51,348 INFO u.Main [main] Homecoming Announcement
+2023-05-16 07:45:51,362 INFO u.Main [main] Function Interface
+2023-05-16 07:45:51,363 INFO u.Main [main] Predicate Interface
+2023-05-16 07:45:51,363 INFO u.Main [main] Supplier Interface
+2023-05-16 07:45:51,371 INFO u.Main [main] Consumer Interface
+2023-05-16 07:45:51,371 INFO u.Main [main] BiConsumer Interface
+2023-05-16 08:12:40,921 INFO u.Main [main] Homecoming Announcement
