@@ -2,7 +2,7 @@ package university;
 
 import java.util.List;
 
-public final class Bus {
+public final class Bus extends Thread{
     private int busId;
     private int driverId;
     private String driverName;
@@ -61,6 +61,11 @@ public final class Bus {
 
     public int getCapacity() {
         return capacity;
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Bus number: " + getBusNumber() + " is taking off");
     }
 
     public List<Student> getStudents(){

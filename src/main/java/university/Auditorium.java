@@ -3,7 +3,7 @@ package university;
 import exceptions.BookSeatsException;
 import java.util.Objects;
 
-public final class Auditorium implements Accessible {
+public final class Auditorium implements Accessible, Runnable {
     public static final int TOTAL_SEATS = 250;
     private int availableSeats;
     private String eventName;
@@ -31,6 +31,11 @@ public final class Auditorium implements Accessible {
             return true;
         }
         throw new BookSeatsException("The seats you booked have either exceeded or invalid based on the available seats: " + getAvailableSeats());
+    }
+
+    @Override
+    public void run() {
+        System.out.println("The event " + getEventName() + " has commenced");
     }
 
     @Override
